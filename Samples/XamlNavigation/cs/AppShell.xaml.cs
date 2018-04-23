@@ -80,7 +80,6 @@ namespace AppInstallerFileGenerator
                 },
             });
         
-
         public static AppShell Current = null;
 
         /// <summary>
@@ -118,6 +117,9 @@ namespace AppInstallerFileGenerator
                 });
 
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
+            
+
+
             
             NavMenuList.ItemsSource = navlist;
         }
@@ -259,40 +261,7 @@ namespace AppInstallerFileGenerator
         /// <param name="e"></param>
         private void OnNavigatingToPage(object sender, NavigatingCancelEventArgs e)
         {
-            if (e.NavigationMode == NavigationMode.Back)
-            {
-                var item = (from p in this.navlist where p.DestPage == e.SourcePageType select p).SingleOrDefault();
-                if (item == null && this.AppFrame.BackStackDepth > 0)
-                {
-                    // In cases where a page drills into sub-pages then we'll highlight the most recent
-                    // navigation menu item that appears in the BackStack
-                    foreach (var entry in this.AppFrame.BackStack.Reverse())
-                    {
-                        item = (from p in this.navlist where p.DestPage == entry.SourcePageType select p).SingleOrDefault();
-                        if (item != null)
-                            break;
-                    }
-                }
-
-                foreach (var i in navlist)
-                {
-                    i.IsSelected = false;
-                }
-                if (item != null)
-                {
-                    item.IsSelected = true;
-                }
-
-                var container = (ListViewItem)NavMenuList.ContainerFromItem(item);
-
-                // While updating the selection state of the item prevent it from taking keyboard focus.  If a
-                // user is invoking the back button via the keyboard causing the selected nav menu item to change
-                // then focus will remain on the back button.
-                if (container != null) container.IsTabStop = false;
-                NavMenuList.SetSelectedItem(container);
-                if (container != null) container.IsTabStop = true;
-            }
-            else if (e.NavigationMode == NavigationMode.New)
+           if (e.NavigationMode == NavigationMode.New)
             {
                 //Updates nav menu if invoked from back/next buttons.
                 {             
@@ -312,7 +281,7 @@ namespace AppInstallerFileGenerator
                     var container = (ListViewItem)NavMenuList.ContainerFromItem(item); 
                     Debug.WriteLine("" + container);
 
-                    //NavMenuList.SetSelectedItem(container); //TODO: Error is cause by this line. For some reason not getting a proper instance of the selected container. Setting the container properly will update the style of the text as it will trigger the "selected" state for
+                    //NavMenuList.SetSelectedItem(container); //TODO: Keith - Need this for color text change and to properly set the selected container. Error is cause by this line. For some reason not getting a proper instance of the selected container. Setting the container properly will update the style of the text as it will trigger the "selected" state.
                 }
             }
         }

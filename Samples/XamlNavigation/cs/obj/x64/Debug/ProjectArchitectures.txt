@@ -1,1 +1,1 @@
-C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\AppInstallerFileGenerator.csproj;x64
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\AppInstallerFileGenerator.csproj;x64

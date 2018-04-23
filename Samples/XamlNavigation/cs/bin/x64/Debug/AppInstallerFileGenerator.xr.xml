@@ -183,7 +183,6 @@
       <RootProperty Name="PointerOverBackground" />
       <RootProperty Name="PointerOverForeground" />
       <RootProperty Name="SelectedBackground" />
-      <RootProperty Name="SelectedForeground" />
       <RootProperty Name="SelectedPointerOverBackground" />
       <RootProperty Name="PressedBackground" />
       <RootProperty Name="SelectedPressedBackground" />

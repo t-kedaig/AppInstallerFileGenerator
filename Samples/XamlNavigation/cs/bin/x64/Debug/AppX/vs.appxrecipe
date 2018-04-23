@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>bdf9127b-7e32-469b-a6ed-f57a0a80ae23</PackageIdentityName>
     <PackageIdentityPublisher>CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>249C85B665389C0F5F5B9ABD8FECEFE1869249F523C9ECC0D94F5CA52E034D2E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>Microsoft.SDKSamples.Navigation.CS_1.0.0.0_x64__8wekyb3d8bbwe</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>Microsoft.SDKSamples.Navigation.CS_8wekyb3d8bbwe!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-23T20:55:48.876</Modified>
+      <Modified>2018-04-23T22:08:42.491</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\AppInstallerFileGenerator.exe">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\bin\x64\Debug\AppInstallerFileGenerator.exe">
       <PackagePath>entrypoint\AppInstallerFileGenerator.exe</PackagePath>
-      <Modified>2018-04-23T20:55:46.229</Modified>
+      <Modified>2018-04-23T22:08:41.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-kedaig\.nuget\packages\microsoft.csharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -451,274 +451,274 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-23T06:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\SharedContent\media\smalltile-sdk.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\SharedContent\media\smalltile-sdk.png">
       <PackagePath>Assets\smalltile-sdk.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-02-16T23:19:53.259</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\SharedContent\media\squaretile-sdk.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\SharedContent\media\squaretile-sdk.png">
       <PackagePath>Assets\squaretile-sdk.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-02-16T23:19:53.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\Icon.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\Icon.png">
       <PackagePath>Assets\Icon.png</PackagePath>
       <Modified>2018-04-21T22:47:26.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.901</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.987</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:56.102</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:56.373</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\smalltile-sdk.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.altform-unplated_targetsize-24.png">
       <PackagePath>Assets\smalltile-sdk.altform-unplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.469</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\smalltile-sdk.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\smalltile-sdk.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.498</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\smalltile-sdk.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.scale-100.png">
       <PackagePath>Assets\smalltile-sdk.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:41.906</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.scale-125.png">
       <PackagePath>Assets\smalltile-sdk.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:41.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.scale-150.png">
       <PackagePath>Assets\smalltile-sdk.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.scale-200.png">
       <PackagePath>Assets\smalltile-sdk.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.035</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.scale-400.png">
       <PackagePath>Assets\smalltile-sdk.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.085</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.targetsize-16.png">
       <PackagePath>Assets\smalltile-sdk.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.targetsize-24.png">
       <PackagePath>Assets\smalltile-sdk.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.targetsize-256.png">
       <PackagePath>Assets\smalltile-sdk.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.targetsize-32.png">
       <PackagePath>Assets\smalltile-sdk.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\smalltile-sdk.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\smalltile-sdk.targetsize-48.png">
       <PackagePath>Assets\smalltile-sdk.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:42.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:17.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:17.083</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:17.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:17.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:12:17.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\splash-sdk.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\splash-sdk.png">
       <PackagePath>Assets\splash-sdk.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:44:08.399</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\splash-sdk.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\splash-sdk.scale-100.png">
       <PackagePath>Assets\splash-sdk.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:03:24.482</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\splash-sdk.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\splash-sdk.scale-125.png">
       <PackagePath>Assets\splash-sdk.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:03:24.569</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\splash-sdk.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\splash-sdk.scale-150.png">
       <PackagePath>Assets\splash-sdk.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:03:24.673</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\splash-sdk.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\splash-sdk.scale-200.png">
       <PackagePath>Assets\splash-sdk.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:03:24.813</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\splash-sdk.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\splash-sdk.scale-400.png">
       <PackagePath>Assets\splash-sdk.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T23:03:25.501</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\squaretile-sdk.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\squaretile-sdk.scale-100.png">
       <PackagePath>Assets\squaretile-sdk.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.153</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\squaretile-sdk.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\squaretile-sdk.scale-125.png">
       <PackagePath>Assets\squaretile-sdk.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\squaretile-sdk.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\squaretile-sdk.scale-150.png">
       <PackagePath>Assets\squaretile-sdk.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\squaretile-sdk.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\squaretile-sdk.scale-200.png">
       <PackagePath>Assets\squaretile-sdk.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\squaretile-sdk.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\squaretile-sdk.scale-400.png">
       <PackagePath>Assets\squaretile-sdk.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:57.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:58.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:58.061</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:58.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:58.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\tile.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\tile.png">
       <PackagePath>Assets\tile.png</PackagePath>
       <Modified>2018-04-21T22:52:29.661</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\WideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\WideTile.scale-100.png">
       <PackagePath>Assets\WideTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.489</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\WideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\WideTile.scale-125.png">
       <PackagePath>Assets\WideTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\WideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\WideTile.scale-150.png">
       <PackagePath>Assets\WideTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\WideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\WideTile.scale-200.png">
       <PackagePath>Assets\WideTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.655</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\Assets\WideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\Assets\WideTile.scale-400.png">
       <PackagePath>Assets\WideTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-21T22:55:55.781</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\SharedContent\cs\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\SharedContent\cs\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-02-16T23:19:53.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\AppInstallerFileGenerator.xr.xml">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\bin\x64\Debug\AppInstallerFileGenerator.xr.xml">
       <PackagePath>AppInstallerFileGenerator.xr.xml</PackagePath>
-      <Modified>2018-04-23T18:29:09.291</Modified>
+      <Modified>2018-04-23T21:38:25.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-11-11T02:15:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-23T20:55:47.970</Modified>
+      <Modified>2018-04-23T22:08:42.091</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Core\AppInstallerFileGenerator.exe">
+    <AppxPackagedFile Include="C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\AppInstallerFileGenerator\Samples\XamlNavigation\cs\bin\x64\Debug\Core\AppInstallerFileGenerator.exe">
       <PackagePath>AppInstallerFileGenerator.exe</PackagePath>
-      <Modified>2018-04-23T20:55:48.849</Modified>
+      <Modified>2018-04-23T22:08:42.485</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
