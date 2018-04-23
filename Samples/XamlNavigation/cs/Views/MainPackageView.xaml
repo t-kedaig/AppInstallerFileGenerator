@@ -1,0 +1,163 @@
+﻿<Page
+    x:Class="AppInstallerFileGenerator.Views.MainPackageView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppInstallerFileGenerator.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <RelativePanel>
+        <ScrollViewer VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Disabled">
+            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="{StaticResource PageMargin}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock
+                Grid.Row="0"
+                x:Uid="Main_Package_Title"
+                x:Name="TitlePage"
+                FontWeight="Light"
+                Style="{StaticResource PageTitleStyle}" Margin="10,0,12,25" FontSize="30" />
+
+            <StackPanel Grid.Row="1">
+
+                <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                    <TextBlock
+                    x:Uid="Package_Type"
+                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,8" FontSize="18"
+                     />
+                    <ComboBox
+                    x:Uid="Package_Type_Combo_Box" Width="200"
+                    x:Name="Package_Type_Combo_Box"
+                    SelectionChanged="Package_Type_Combo_Box_SelectionChanged"
+                    >
+                        <ComboBoxItem>.appx</ComboBoxItem>
+                        <ComboBoxItem>.appxbundle</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel Margin="{StaticResource SettingsSubheaderMargin}" x:Name="Processor_Type_Stack_Panel">
+                    <TextBlock
+                    x:Uid="Processor_Type"
+                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,8" FontSize="18"
+                     />
+                    <ComboBox
+                    x:Uid="Processor_Type_Combo_Box" Width="200"
+                    x:Name="Processor_Type_Combo_Box"
+                    SelectionChanged="Processor_Type_Combo_Box_SelectionChanged"
+                    >
+                        <ComboBoxItem>None</ComboBoxItem>
+                        <ComboBoxItem>x64</ComboBoxItem>
+                        <ComboBoxItem>x86</ComboBoxItem>
+                        <ComboBoxItem>ARM</ComboBoxItem>
+                        <ComboBoxItem>Neutral</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                    <TextBlock
+                    x:Uid="File_Path"
+                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="18" Margin="0,0,0,8"
+                     />
+                    <TextBox 
+                    x:Uid="File_Path_Text_Box"
+                    x:Name="File_Path_Text_Box"
+                    TextChanged="File_Path_Text_Box_TextChanged"
+                    HorizontalAlignment="Left"
+                    Width="300"
+                />
+                </StackPanel>
+
+                <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                    <TextBlock
+                    x:Uid="Version"
+                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="18" Margin="0,0,0,8"
+                     />
+                    <TextBox 
+                    x:Uid="Version_Text_Box"
+                    x:Name="Version_Text_Box"
+                    TextChanged="Version_Text_Box_TextChanged"
+                    HorizontalAlignment="Left"
+                    Width="300"
+                />
+                </StackPanel>
+
+                <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                    <TextBlock
+                    x:Uid="Publisher"
+                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="18" Margin="0,0,0,8"
+                     />
+                    <TextBox 
+                    x:Uid="Publisher_Text_Box"
+                    x:Name="Publisher_Text_Box"
+                    TextChanged="Publisher_Text_Box_TextChanged"
+                    HorizontalAlignment="Left"
+                    Width="300"
+                />
+                </StackPanel>
+
+                <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                    <TextBlock
+                    x:Uid="Name"
+                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="18" Margin="0,0,0,8"
+                     />
+                    <TextBox 
+                    x:Uid="Name_Text_Box"
+                    x:Name="Name_Text_Box"
+                    Margin="0,0,0,0"
+                    TextChanged="Name_Text_Box_TextChanged"
+                    HorizontalAlignment="Left"
+                    Width="300"
+                    />
+                </StackPanel>
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                        <TextBlock
+                        x:Uid="Resource_Id"
+                        Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="18" Margin="0,0,0,8"
+                         />
+                        <TextBox 
+                        x:Uid="Resource_Id_Text_box"
+                        x:Name="Resource_Id_Text_Box"
+                        Margin="0,0,0,80"
+                        TextChanged="Resource_Id_Text_Box_TextChanged"
+                        HorizontalAlignment="Left"
+                        Width="300"
+                        />
+                    </StackPanel>
+                </StackPanel>
+        </Grid>
+    </ScrollViewer>
+
+        <RelativePanel
+            Background="#e6e3e3"
+            Height="60" 
+            RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.AlignRightWithPanel="True"
+            RelativePanel.AlignLeftWithPanel="True"
+            >
+
+            <Button 
+                x:Name="Next_Button"
+                Click="Next_Button_Click"
+                Content="Next" 
+                RelativePanel.AlignVerticalCenterWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                Width="80"
+                Margin="0,0,20,0"
+             />
+
+            <Button 
+                x:Name="Back_Button"
+                Click="Back_Button_Click"
+                Content="Back" 
+                RelativePanel.AlignVerticalCenterWithPanel="True"
+                RelativePanel.LeftOf="Next_Button"
+                Width="80"
+                Margin="0,0,10,0"
+             />
+        </RelativePanel>
+    </RelativePanel>
+</Page>

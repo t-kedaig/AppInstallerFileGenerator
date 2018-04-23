@@ -1,0 +1,799 @@
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\App.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Controls\PageHeader.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Styles\Styles.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Styles\TenFootStylesheet.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Views\BasicPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\AppShell.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Views\CommandBarPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Views\BasicSubPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Views\DrillInPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Views\LandingPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\NavigationMenuSample.xr.xml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\NavigationMenuSample.exe
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\NavigationMenuSample.pdb
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\resources.pri
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\AppxManifest.xml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Core\NavigationMenuSample.exe
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\NavigationMenu.build.appxrecipe
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Microsoft.CSharp.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Core.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Numerics.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Web.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Windows.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.Linq.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.Serialization.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Microsoft.VisualBasic.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.AppContext.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Collections.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Collections.Concurrent.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Collections.Immutable.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Collections.NonGeneric.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Collections.Specialized.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.Annotations.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Data.Common.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Contracts.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Debug.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Tools.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Tracing.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Dynamic.Runtime.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Globalization.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Globalization.Calendars.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Globalization.Extensions.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.Compression.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\ClrCompression.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.FileSystem.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.IsolatedStorage.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Linq.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Linq.Expressions.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Linq.Parallel.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Linq.Queryable.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.Http.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.Http.Rtc.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.NetworkInformation.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.Primitives.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.Requests.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.Sockets.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Numerics.Vectors.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ObjectModel.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Private.DataContractSerialization.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Private.Networking.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Private.ServiceModel.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Private.Uri.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Context.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Emit.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Extensions.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Metadata.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Primitives.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Resources.ResourceManager.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Extensions.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Handles.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.InteropServices.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Numerics.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Security.Claims.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Security.Principal.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Duplex.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Http.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Primitives.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Security.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Text.Encoding.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Text.RegularExpressions.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.Overlapped.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.Tasks.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.Timer.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.ReaderWriter.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.XDocument.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.XmlDocument.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.XmlSerializer.dll
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\NavigationMenu.csprojResolveAssemblyReference.cache
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\App.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\App.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\AppShell.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\AppShell.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\App.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Styles.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\TenFootStylesheet.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\AppShell.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\App.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Styles.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\TenFootStylesheet.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\AppShell.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\NavigationMenu.csproj.CoreCompileInputs.cache
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\NavigationMenuSample.exe
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\NavigationMenuSample.pdb
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\priconfig.xml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\layout.resfiles
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\layout.resfiles.intermediate
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\resources.resfiles
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\pri.resfiles
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\qualifiers.txt
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Styles\Common.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Styles\Settings.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Views\AppInstallerPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Views\MainPackagePage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerPage.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerPage.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\MainPackagePage.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\MainPackagePage.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Common.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Settings.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerPage.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\MainPackagePage.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Common.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Settings.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\MainPackagePage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Views\OptionalPackagesPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesPage.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesPage.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesPage.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Views\DependenciesPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Views\RelatedPackagesPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesPage.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesPage.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesPage.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesPage.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesPage.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesPage.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\bin\x64\Debug\Views\UpdateSettingsPage.xbf
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsPage.g.i.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsPage.g.cs
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsPage.xaml
+C:\Users\t-kedaig\Desktop\Windows-universal-samples-master\Samples\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\NavigationMenu.csprojResolveAssemblyReference.cache
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\App.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\App.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\AppShell.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\AppShell.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\MainPackagePage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\MainPackagePage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\App.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Styles\Styles.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Styles\TenFootStylesheet.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\AppShell.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Styles\Common.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Styles\Settings.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\MainPackagePage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\App.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Styles\Styles.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Styles\TenFootStylesheet.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\AppShell.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Styles\Common.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Styles\Settings.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\MainPackagePage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\NavigationMenuSample.exe
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\NavigationMenuSample.pdb
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\App.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Controls\PageHeader.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Styles\Styles.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Styles\TenFootStylesheet.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Views\BasicPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\AppShell.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Views\CommandBarPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Views\BasicSubPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Views\DrillInPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Views\LandingPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Styles\Common.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Styles\Settings.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Views\AppInstallerPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Views\DependenciesPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Views\MainPackagePage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Views\OptionalPackagesPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Views\RelatedPackagesPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Views\UpdateSettingsPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\NavigationMenuSample.xr.xml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\NavigationMenuSample.exe
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\NavigationMenuSample.pdb
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\resources.pri
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\AppxManifest.xml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Core\NavigationMenuSample.exe
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Microsoft.CSharp.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Core.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Net.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Numerics.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Web.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Windows.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Xml.Linq.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Xml.Serialization.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Xml.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Microsoft.VisualBasic.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.AppContext.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Collections.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Collections.Concurrent.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Collections.Immutable.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Collections.NonGeneric.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Collections.Specialized.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.Annotations.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Data.Common.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Contracts.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Debug.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Tools.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Tracing.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Dynamic.Runtime.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Globalization.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Globalization.Calendars.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Globalization.Extensions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.IO.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.IO.Compression.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\ClrCompression.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.IO.FileSystem.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.IO.IsolatedStorage.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Linq.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Linq.Expressions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Linq.Parallel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Linq.Queryable.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Net.Http.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Net.Http.Rtc.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Net.NetworkInformation.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Net.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Net.Requests.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Net.Sockets.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Numerics.Vectors.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ObjectModel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Private.DataContractSerialization.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Private.Networking.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Private.ServiceModel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Private.Uri.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Reflection.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Context.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Emit.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Extensions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Metadata.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Resources.ResourceManager.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Extensions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Handles.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.InteropServices.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Numerics.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Security.Claims.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Security.Principal.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Duplex.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Http.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Security.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Text.Encoding.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Text.RegularExpressions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Threading.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Threading.Overlapped.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Threading.Tasks.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Threading.Timer.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Xml.ReaderWriter.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Xml.XDocument.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Xml.XmlDocument.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\bin\x64\Debug\System.Xml.XmlSerializer.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\NavigationMenu.csproj.CoreCompileInputs.cache
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\priconfig.xml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\layout.resfiles
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\layout.resfiles.intermediate
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\resources.resfiles
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\pri.resfiles
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\qualifiers.txt
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\XamlNavigation\cs\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\NavigationMenu.csprojResolveAssemblyReference.cache
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\App.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\App.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\AppShell.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\AppShell.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerView.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerView.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesView.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesView.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\GenerateXMLView.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\GenerateXMLView.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\MainPackageView.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\MainPackageView.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesView.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesView.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesView.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesView.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsView.g.i.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsView.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\App.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Styles.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\TenFootStylesheet.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\AppShell.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Common.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Settings.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerView.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesView.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\GenerateXMLView.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\MainPackageView.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesView.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesView.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsView.xaml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\App.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Controls\PageHeader.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Styles.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\TenFootStylesheet.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\AppShell.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\CommandBarPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\BasicSubPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DrillInPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\LandingPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Common.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Styles\Settings.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\AppInstallerView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\DependenciesView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\GenerateXMLView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\MainPackageView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\OptionalPackagesView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\RelatedPackagesView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\Views\UpdateSettingsView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\NavigationMenu.csproj.CoreCompileInputs.cache
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\App.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Controls\PageHeader.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Styles\Styles.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Styles\TenFootStylesheet.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\BasicPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\AppShell.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\CommandBarPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\BasicSubPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\DrillInPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\LandingPage.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Styles\Common.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Styles\Settings.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\AppInstallerView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\DependenciesView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\GenerateXMLView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\MainPackageView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\OptionalPackagesView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\RelatedPackagesView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Views\UpdateSettingsView.xbf
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\NavigationMenuSample.xr.xml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\NavigationMenuSample.exe
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\NavigationMenuSample.pdb
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\resources.pri
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\AppxManifest.xml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Core\NavigationMenuSample.exe
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\NavigationMenu.build.appxrecipe
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Microsoft.CSharp.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Core.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Numerics.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Web.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Windows.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.Linq.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.Serialization.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Microsoft.VisualBasic.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.AppContext.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Collections.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Collections.Concurrent.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Collections.Immutable.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Collections.NonGeneric.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Collections.Specialized.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.Annotations.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Data.Common.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Contracts.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Debug.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Tools.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Diagnostics.Tracing.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Dynamic.Runtime.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Globalization.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Globalization.Calendars.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Globalization.Extensions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.Compression.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\ClrCompression.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.FileSystem.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.IsolatedStorage.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Linq.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Linq.Expressions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Linq.Parallel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Linq.Queryable.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.Http.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.Http.Rtc.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.NetworkInformation.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.Requests.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.Sockets.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Numerics.Vectors.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ObjectModel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Private.DataContractSerialization.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Private.Networking.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Private.ServiceModel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Private.Uri.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Context.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Emit.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Extensions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Metadata.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Resources.ResourceManager.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Extensions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Handles.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.InteropServices.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Numerics.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Security.Claims.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Security.Principal.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Duplex.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Http.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Primitives.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.ServiceModel.Security.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Text.Encoding.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Text.RegularExpressions.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.Overlapped.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.Tasks.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Threading.Timer.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.ReaderWriter.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.XDocument.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.XmlDocument.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\bin\x64\Debug\System.Xml.XmlSerializer.dll
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\NavigationMenuSample.exe
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\NavigationMenuSample.pdb
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\priconfig.xml
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\layout.resfiles
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\layout.resfiles.intermediate
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\resources.resfiles
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\pri.resfiles
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\qualifiers.txt
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\t-kedaig\OneDrive - Microsoft\AppInstaller XML Generator\AppInstaller XML Generator\Windows Samples\Samples\XamlNavigation\cs\obj\x64\Debug\ProjectArchitectures.txt

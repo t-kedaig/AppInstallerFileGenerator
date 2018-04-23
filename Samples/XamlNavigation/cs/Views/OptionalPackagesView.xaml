@@ -1,0 +1,170 @@
+﻿<Page
+    x:Class="AppInstallerFileGenerator.Views.OptionalPackagesView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppInstallerFileGenerator.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+     <RelativePanel>
+        <ScrollViewer VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Disabled">
+
+         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="{StaticResource PageMargin}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Margin="{StaticResource SettingsSubheaderMargin}" Grid.Row="0">
+                <TextBlock
+                        x:Uid="Optional_Packages_Title"
+                        x:Name="TitlePage"
+                        FontWeight="Light"
+                        Style="{StaticResource PageTitleStyle}" FontSize="30" FontFamily="Segoe UI" Margin="0,0,12,25" 
+                    />
+                <TextBlock
+                        x:Uid="Use_Optional_Packages"
+                        Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,8" FontSize="18"
+                        />
+                <ToggleSwitch
+                        x:Uid="Optional_Packages_Switch"
+                        x:Name="Optional_Packages_Switch"
+                        IsOn="{Binding IsOptionalPackages, Mode=TwoWay}"
+                        Toggled="ToggleSwitch_Toggled"
+                        >
+                </ToggleSwitch>
+
+            </StackPanel>
+
+                <StackPanel Grid.Row="1" x:Name="Package_Info_Stack_Panel">
+
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                        <TextBlock
+                        x:Uid="Package_Type"
+                        x:Name="Package_Type"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontFamily="Segoe UI" FontSize="18" Margin="0,0,-1,8" Padding="1,0,0,0"
+                    />
+                        <ComboBox
+                        x:Uid="Package_Type_Combo_Box" Width="200"
+                        x:Name="Package_Type_Combo_Box"
+                        SelectionChanged="Package_Type_Combo_Box_SelectionChanged">
+                            <ComboBoxItem>.appx</ComboBoxItem>
+                            <ComboBoxItem>.appxbundle</ComboBoxItem>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}" x:Name="Processor_Type_Stack_Panel">
+                        <TextBlock
+                        x:Uid="Processor_Type"
+                        Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,8" FontSize="18"
+                         />
+                        <ComboBox
+                        x:Uid="Processor_Type_Combo_Box" Width="200"
+                        x:Name="Processor_Type_Combo_Box"
+                        SelectionChanged="Processor_Type_Combo_Box_SelectionChanged"
+                        >
+                            <ComboBoxItem>None</ComboBoxItem>
+                            <ComboBoxItem>x64</ComboBoxItem>
+                            <ComboBoxItem>x86</ComboBoxItem>
+                            <ComboBoxItem>ARM</ComboBoxItem>
+                            <ComboBoxItem>Neutral</ComboBoxItem>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                        <TextBlock
+                        x:Uid="File_Path"
+                        x:Name="File_Path"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="18" Margin="0,0,0,8" Padding="1,0,0,0"
+                    />
+                        <TextBox 
+                        x:Uid="File_Path_Text_Box"
+                        x:Name="File_Path_Text_Box"
+                        TextChanged="File_Path_Text_Box_TextChanged"
+                        HorizontalAlignment="Left"
+                        Width="300"
+                    />
+                    </StackPanel>
+
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                        <TextBlock
+                        x:Uid="Version"
+                        x:Name="Version"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="18" Margin="0,0,0,8" Padding="1,0,0,0"
+                    />
+                        <TextBox 
+                        x:Uid="Version_Text_Box"
+                        x:Name="Version_Text_Box"
+                        TextChanged="Version_Text_Box_TextChanged"
+                        HorizontalAlignment="Left"
+                        Width="300"
+                    />
+                    </StackPanel>
+
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                        <TextBlock
+                        x:Uid="Publisher"
+                        x:Name="Publisher"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="18" Margin="0,0,0,8" Padding="1,0,0,0"
+                    />
+                        <TextBox 
+                        x:Uid="Publisher_Text_Box"
+                        x:Name="Publisher_Text_Box"
+                        TextChanged="Publisher_Text_Box_TextChanged"
+                        HorizontalAlignment="Left"
+                        Width="300"
+                    />
+                    </StackPanel>
+
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                        <TextBlock
+                        x:Uid="Name"
+                        x:Name="Name"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="18" Margin="0,0,0,8" Padding="1,0,0,0"
+                    />
+                        <TextBox 
+                        x:Uid="Name_Text_Box"
+                        x:Name="Name_Text_Box"
+                        Margin="0,0,0,80"
+                        TextChanged="Name_Text_Box_TextChanged"
+                        HorizontalAlignment="Left"
+                        Width="300"
+                    />
+                    </StackPanel>
+
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+
+        <RelativePanel
+                Background="#e6e3e3"
+                Height="60" 
+                RelativePanel.AlignBottomWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                >
+
+            <Button 
+                    x:Name="Next_Button"
+                    Click="Next_Button_Click"
+                    Content="Next"
+                    RelativePanel.AlignVerticalCenterWithPanel="True"
+                    RelativePanel.AlignRightWithPanel="True"
+                    Width="80"
+                    Margin="0,0,20,0"
+                 />
+
+            <Button 
+                    x:Name="Back_Button"
+                    Click="Back_Button_Click"
+                    Content="Back" 
+                    RelativePanel.AlignVerticalCenterWithPanel="True"
+                    RelativePanel.LeftOf="Next_Button"
+                    Width="80"
+                    Margin="0,0,10,0"
+                 />
+        </RelativePanel>
+    </RelativePanel>
+</Page>
