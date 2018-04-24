@@ -80,7 +80,6 @@ namespace AppInstallerFileGenerator.Views
             this.NavigationCacheMode = NavigationCacheMode.Required;
             _dependenciesSwitch = (ToggleSwitch)this.FindName("Dependencies_Switch");
 
-            //TODO: Initialize table and create first cell.
 
             _filePathTextBox = (TextBox)this.FindName("File_Path_Text_Box");
             _packageTypeComboBox = (ComboBox)this.FindName("Package_Type_Combo_Box");
@@ -107,9 +106,6 @@ namespace AppInstallerFileGenerator.Views
             _publishers = App.DependencyPublishers;
             _names = App.DependencyNames;
             _processorArchitectures = App.DependencyProcessorArchitectures;
-
-
-            //TODO: XAML and code will need to implement table or equivalent with custom cells. Add a new cell on Add Optional Package. etc...Like a tableView. Loop through to populate and read from/
 
             for (int i = 0; i < _filePaths.Length; i++)
             {
@@ -188,7 +184,7 @@ namespace AppInstallerFileGenerator.Views
                 else
                 {
                     _processorTypeStackPanel.Visibility = Visibility.Collapsed;
-                    _processorArchitectures[0] = ProcessorArchitecture.none; //TODO: Since appxbundle cant have architecture specified.
+                    _processorArchitectures[0] = ProcessorArchitecture.none; 
                 }
             }
         }
@@ -203,19 +199,18 @@ namespace AppInstallerFileGenerator.Views
                 App.DependencyPublishers[i] = _publishers[i];
                 App.DependencyNames[i] = _names[i];
                 App.DependencyProcessorArchitectures[i] = _processorArchitectures[i];
+                App.IsDependencies = _isDependencies;
             }
         }
 
         private void File_Path_Text_Box_TextChanged(object sender, TextChangedEventArgs e)
         {
-            //TODO: Need a way to send index of which row in table send the event. Use this to update the arrays at the proper index.
             _filePaths[0] = _filePathTextBox.Text;
             _save();
         }
 
         private void Package_Type_Combo_Box_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            //TODO: Need a way to send index of which row in table send the event. Use this to update the arrays at the proper index.
             int value = _packageTypeComboBox.SelectedIndex;
 
             if (value == 0)

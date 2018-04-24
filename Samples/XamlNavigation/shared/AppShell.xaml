@@ -137,12 +137,13 @@
 
                     <!-- A custom ListView to display the items in the pane.  The automation Name is set in the ContainerContentChanging event. -->
 
+                    <!--TODO: KEITH - Why necessary to set "Main" as negative margin? -->
                     <TextBlock 
                         x:Name="Header1"
                         Text="Main"
                         FontWeight="Bold"
                         FontSize="20"
-                        Margin="16,40,0,0"
+                        Margin="16,40,0,-12"
                         Grid.ColumnSpan="3"
                         Grid.Row="0"
                         >

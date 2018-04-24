@@ -57,6 +57,7 @@ namespace AppInstallerFileGenerator
         internal static String[] OptionalPackageNames = new String[] { "sdf" };
         internal static ProcessorArchitecture[] OptionalPackageProcessorArchitectures = new ProcessorArchitecture[] {ProcessorArchitecture.none, ProcessorArchitecture.none};
 
+        internal static bool IsRelatedPackages = false;
         internal static PackageType[] RelatedPackageTypes = new PackageType[] {PackageType.Appx};
         internal static String[] RelatedPackageFilePaths = new String[] {"testt"};
         internal static String[] RelatedPackageVersions = new String[] { "testt" };
@@ -64,7 +65,7 @@ namespace AppInstallerFileGenerator
         internal static String[] RelatedPackageNames = new String[] { "testt" };
         internal static ProcessorArchitecture[] RelatedPackageProcessorArchitectures = new ProcessorArchitecture[] { ProcessorArchitecture.none};
 
-
+        internal static bool IsDependencies = false;
         internal static PackageType[] DependencyPackageTypes = new PackageType[] {PackageType.Appx};
         internal static String[] DependencyFilePaths = new String[] { "testt" };
         internal static String[] DependencyVersions = new String[] { "testt" };

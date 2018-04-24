@@ -318,7 +318,6 @@ namespace AppInstallerFileGenerator
                     var container = (ListViewItem)NavMenuList.ContainerFromItem(item); 
                     Debug.WriteLine("" + container);
 
-                    //NavMenuList.SetSelectedItem(container); //TODO: Keith - Need this for color text change and to properly set the selected container. Error is cause by this line. For some reason not getting a proper instance of the selected container. Setting the container properly will update the style of the text as it will trigger the "selected" state.
                 }
             }
         }

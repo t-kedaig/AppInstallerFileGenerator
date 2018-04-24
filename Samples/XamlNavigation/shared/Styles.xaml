@@ -335,8 +335,6 @@
                         VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
                         ContentMargin="{TemplateBinding Padding}"/>
                 </ControlTemplate>
-                <!--TODO: Keith - Add this back to make the navigation text blue once container switching works properly-->
-                <!--SelectedForeground="{ThemeResource SystemControlForegroundAccentBrush}"-->
             </Setter.Value>
         </Setter>
     </Style>

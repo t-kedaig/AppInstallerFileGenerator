@@ -142,7 +142,7 @@ namespace AppInstallerFileGenerator.Views
             {
                 _processorTypeStackPanel.Visibility = Visibility.Collapsed;
                 _resourceIdStackPanel.Visibility = Visibility.Collapsed;
-                _processorArchitecture = ProcessorArchitecture.none; //TODO: Since appxbundle cant have architecture specified.
+                _processorArchitecture = ProcessorArchitecture.none; 
             }
         }
 

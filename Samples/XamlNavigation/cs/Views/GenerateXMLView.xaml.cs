@@ -41,11 +41,17 @@ namespace AppInstallerFileGenerator.Views
 
         private void Generate_File_Button_Click(object sender, RoutedEventArgs e)
         {
+            //Check that all required fields have been filled
+            if (!_validateInput())
+            {
+                return;
+            }
+
             try
             {
                 var t = Task.Run(() =>
                 {
-
+                    
                     //Create file
                     FileStream writer = new FileStream(ApplicationData.Current.LocalFolder.Path + "//GenerationExample.xml", FileMode.Create); //TODO: Create file in proper location
 
@@ -65,7 +71,7 @@ namespace AppInstallerFileGenerator.Views
                     if (App.MainPackageType == PackageType.Appx)
                     {
                         DataContractSerializer mainPackageDCS = new DataContractSerializer(typeof(MainPackage));
-                        MainPackage mainPackage = new MainPackage(App.MainPackageFilePath, App.MainPackageVersion, App.MainPackagePublisher, App.MainPackageName, App.MainPackageType, App.MainPackageProcessorArchitecture, App.MainPackageResourceId); //TODO: Placeholder
+                        MainPackage mainPackage = new MainPackage(App.MainPackageFilePath, App.MainPackageVersion, App.MainPackagePublisher, App.MainPackageName, App.MainPackageType, App.MainPackageProcessorArchitecture, App.MainPackageResourceId); 
                         mainPackageDCS.WriteStartObject(xdw, mainPackage);
                         xdw.WriteAttributeString("Uri", mainPackage.FilePath);
                         xdw.WriteAttributeString("Version", mainPackage.Version);
@@ -80,7 +86,7 @@ namespace AppInstallerFileGenerator.Views
                     } else if (App.MainPackageType == PackageType.Appxbundle)
                     {
                         DataContractSerializer mainBundleDCS = new DataContractSerializer(typeof(MainBundle));
-                        MainBundle mainBundle = new MainBundle(App.MainPackageFilePath, App.MainPackageVersion, App.MainPackagePublisher, App.MainPackageName); //TODO: Placeholder
+                        MainBundle mainBundle = new MainBundle(App.MainPackageFilePath, App.MainPackageVersion, App.MainPackagePublisher, App.MainPackageName); 
                         mainBundleDCS.WriteStartObject(xdw, mainBundle);
                         xdw.WriteAttributeString("Uri", mainBundle.FilePath);
                         xdw.WriteAttributeString("Version", mainBundle.Version);
@@ -90,9 +96,9 @@ namespace AppInstallerFileGenerator.Views
                     }
 
                     //Optional Packages Content
-                    OptionalPackage[] optionalPackages = new OptionalPackage[App.OptionalPackageFilePaths.Length]; //TODO: Once App.cs has list of optional packages, just get that here.
+                    OptionalPackage[] optionalPackages = new OptionalPackage[App.OptionalPackageFilePaths.Length]; 
                     DataContractSerializer optionalPackageDCS = new DataContractSerializer(typeof(OptionalPackage));
-                    if (optionalPackages.Length > 0)
+                    if (optionalPackages.Length > 0 && App.IsOptionalPackages)
                     {
                         optionalPackageDCS.WriteStartObject(xdw, optionalPackages[0]);
                         for (int i = 0; i < optionalPackages.Length; i++)
@@ -147,7 +153,7 @@ namespace AppInstallerFileGenerator.Views
 
                     RelatedPackage[] relatedPackages = new RelatedPackage[App.RelatedPackageFilePaths.Length];
                     DataContractSerializer relatedPackageDCS = new DataContractSerializer(typeof(RelatedPackage));
-                    if (relatedPackages.Length > 0)
+                    if (relatedPackages.Length > 0 && App.IsRelatedPackages)
                     {
                         relatedPackageDCS.WriteStartObject(xdw, relatedPackages[0]);
                         for (int i = 0; i < relatedPackages.Length; i++)
@@ -202,7 +208,7 @@ namespace AppInstallerFileGenerator.Views
 
                     Dependency[] dependencies = new Dependency[App.DependencyFilePaths.Length];
                     DataContractSerializer dependencyDCS = new DataContractSerializer(typeof(Dependency));
-                    if (dependencies.Length > 0)
+                    if (dependencies.Length > 0 && App.IsDependencies)
                     {
                         dependencyDCS.WriteStartObject(xdw, dependencies[0]);
                         for (int i = 0; i < dependencies.Length; i++)
@@ -289,6 +295,59 @@ namespace AppInstallerFileGenerator.Views
 
         }
 
+        private bool _validateInput()
+        {
+            if (App.AppInstallerFilePath == "" || App.AppInstallerVersionNumber == "")
+            {
+                _displayMissingAppInstallerInformationDialog();
+                return false;
+            }
+
+            if (App.MainPackageFilePath == "" || App.MainPackageName == "" || App.MainPackagePublisher == "" || App.MainPackageVersion == "")
+            {
+                _displayMissingMainPackageInformationDialog();
+                return false;
+            }
+
+            if (App.IsOptionalPackages == true)
+            {
+                for (int i = 0; i < App.OptionalPackageFilePaths.Length; i++)
+                {
+                    if (App.OptionalPackageFilePaths[i] == "" || App.OptionalPackageNames[i] == "" || App.OptionalPackagePublishers[i] == "" || App.OptionalPackageVersions[i] == "")
+                    {
+                        _displayMissingOptionalPackageInformationDialog();
+                        return false;
+                    }
+                }
+            }
+
+            if (App.IsRelatedPackages == true)
+            {
+                for (int i = 0; i < App.RelatedPackageFilePaths.Length; i++)
+                {
+                    if (App.RelatedPackageFilePaths[i] == "" || App.RelatedPackageNames[i] == "" || App.RelatedPackagePublishers[i] == "" || App.RelatedPackageVersions[i] == "")
+                    {
+                        _displayMissingRelatedPackageInformationDialog();
+                        return false;
+                    }
+                }
+            }
+
+            if (App.IsDependencies == true)
+            {
+                for (int i = 0; i < App.DependencyFilePaths.Length; i++)
+                {
+                    if (App.DependencyFilePaths[i] == "" || App.DependencyNames[i] == "" || App.DependencyPublishers[i] == "" || App.DependencyVersions[i] == "")
+                    {
+                        _displayMissingDependencyInformationDialog();
+                        return false;
+                    }
+                }
+            }
+
+            return true;
+        }
+
         private void Back_Button_Click(object sender, RoutedEventArgs e)
         {
             AppShell.Current.AppFrame.Navigate(AppShell.Current.navlist2[2].DestPage);
@@ -304,6 +363,66 @@ namespace AppInstallerFileGenerator.Views
             };
 
             ContentDialogResult result = await successDialog.ShowAsync();
+        }
+
+        private async void _displayMissingAppInstallerInformationDialog()
+        {
+            ContentDialog failDialog = new ContentDialog
+            {
+                Title = "Error: Incomplete AppInstaller Information",
+                Content = "The file could not be created as a required field was left empty on the AppInstaller page. Please fill in all required fields on this page.",
+                CloseButtonText = "Ok"
+            };
+
+            ContentDialogResult result = await failDialog.ShowAsync();
+        }
+
+        private async void _displayMissingMainPackageInformationDialog()
+        {
+            ContentDialog failDialog = new ContentDialog
+            {
+                Title = "Error: Incomplete Main Package Information",
+                Content = "The file could not be created as a required field was left empty on the Main Package page. Please fill in all required fields on this page.",
+                CloseButtonText = "Ok"
+            };
+
+            ContentDialogResult result = await failDialog.ShowAsync();
+        }
+
+        private async void _displayMissingOptionalPackageInformationDialog()
+        {
+            ContentDialog failDialog = new ContentDialog
+            {
+                Title = "Error: Incomplete Optional Package Information",
+                Content = "The file could not be created as a required field was left empty on the Optional Package page. Please fill in all required fields on this page.",
+                CloseButtonText = "Ok"
+            };
+
+            ContentDialogResult result = await failDialog.ShowAsync();
+        }
+
+        private async void _displayMissingDependencyInformationDialog()
+        {
+            ContentDialog failDialog = new ContentDialog
+            {
+                Title = "Error: Incomplete Dependency Information",
+                Content = "The file could not be created as a required field was left empty on the Dependency page. Please fill in all required fields on this page.",
+                CloseButtonText = "Ok"
+            };
+
+            ContentDialogResult result = await failDialog.ShowAsync();
+        }
+
+        private async void _displayMissingRelatedPackageInformationDialog()
+        {
+            ContentDialog failDialog = new ContentDialog
+            {
+                Title = "Error: Incomplete Related Package Information",
+                Content = "The file could not be created as a required field was left empty on the Related Package page. Please fill in all required fields on this page.",
+                CloseButtonText = "Ok"
+            };
+
+            ContentDialogResult result = await failDialog.ShowAsync();
         }
     }
 }
