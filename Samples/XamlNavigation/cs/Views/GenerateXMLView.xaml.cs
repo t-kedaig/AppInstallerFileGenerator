@@ -291,7 +291,7 @@ namespace AppInstallerFileGenerator.Views
 
         private void Back_Button_Click(object sender, RoutedEventArgs e)
         {
-            AppShell.Current.AppFrame.Navigate(AppShell.Current.navlist[5].DestPage);
+            AppShell.Current.AppFrame.Navigate(AppShell.Current.navlist2[2].DestPage);
         }
 
         private async void _displaySuccessDialog()

@@ -37,7 +37,7 @@
                      It appears when the user hovers over the icon, but not the label which provides
                      value when the SplitView is 'Compact' while reducing the likelihood of showing
                      redundant information when the label is shown.-->
-                <FontIcon x:Name="Glyph" FontSize="16" Glyph="{x:Bind SymbolAsChar}" VerticalAlignment="Center" HorizontalAlignment="Center" ToolTipService.ToolTip="{x:Bind Label}"/>
+                <FontIcon x:Name="Glyph" FontSize="14" Glyph="{x:Bind SymbolAsChar}" VerticalAlignment="Center" HorizontalAlignment="Center" ToolTipService.ToolTip="{x:Bind Label}"/>
                 <TextBlock x:Name="Text" Grid.Column="1" Text="{x:Bind Label}" Style="{StaticResource BodyTextBlockStyle}" TextWrapping="NoWrap" VerticalAlignment="Center"/>
             </Grid>
         </DataTemplate>
@@ -121,7 +121,10 @@
             <SplitView.Pane>
                 <Grid x:Name="PaneContentGrid">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="6"/>
@@ -133,14 +136,72 @@
                     </Grid.ColumnDefinitions>
 
                     <!-- A custom ListView to display the items in the pane.  The automation Name is set in the ContainerContentChanging event. -->
-                    <controls:NavMenuListView x:Name="NavMenuList"
-                                                  Grid.ColumnSpan="3"
-                                                  TabIndex="3"
-                                                  Margin="0,40,0,0"
-                                                  ContainerContentChanging="NavMenuItemContainerContentChanging"
-                                                  ItemContainerStyle="{StaticResource NavMenuItemContainerStyle}"
-                                                  ItemTemplate="{StaticResource NavMenuItemTemplate}"
-                                                  ItemInvoked="NavMenuList_ItemInvoked"/>
+
+                    <TextBlock 
+                        x:Name="Header1"
+                        Text="Main"
+                        FontWeight="Bold"
+                        FontSize="20"
+                        Margin="16,40,0,0"
+                        Grid.ColumnSpan="3"
+                        Grid.Row="0"
+                        >
+                    </TextBlock>
+                    
+                    <controls:NavMenuListView 
+                        x:Name="NavMenuList"
+                        Grid.ColumnSpan="3"
+                        Grid.Row="1"
+                        TabIndex="3"
+                        Margin="0,0,0,20"
+                        ContainerContentChanging="NavMenuItemContainerContentChanging"
+                        ItemContainerStyle="{StaticResource NavMenuItemContainerStyle}"
+                        ItemTemplate="{StaticResource NavMenuItemTemplate}"
+                        ItemInvoked="NavMenuList_ItemInvoked"/>
+
+                    <TextBlock 
+                        x:Name="Header2"
+                        Text="Advanced"
+                        FontWeight="Bold"
+                        FontSize="20"
+                        Margin="16,0,0,0"
+                        Grid.ColumnSpan="3"
+                        Grid.Row="2"
+                        >
+                    </TextBlock>
+
+                    <controls:NavMenuListView 
+                        x:Name="NavMenuList2"
+                        Grid.ColumnSpan="3"
+                        TabIndex="3"
+                        Grid.Row="3"
+                        Margin="0,0,0,20"
+                        ContainerContentChanging="NavMenuItemContainerContentChanging"
+                        ItemContainerStyle="{StaticResource NavMenuItemContainerStyle}"
+                        ItemTemplate="{StaticResource NavMenuItemTemplate}"
+                        ItemInvoked="NavMenuList_ItemInvoked"/>
+
+                    <TextBlock 
+                        x:Name="Header3"
+                        Text="Finish"
+                        FontWeight="Bold"
+                        FontSize="20"
+                        Margin="16,0,0,0"
+                        Grid.ColumnSpan="3"
+                        Grid.Row="4"
+                        >
+                    </TextBlock>
+
+                    <controls:NavMenuListView
+                        x:Name="NavMenuList3"
+                        Grid.ColumnSpan="3"
+                        TabIndex="3"
+                        Grid.Row="5"
+                        Margin="0,0,0,0"
+                        ContainerContentChanging="NavMenuItemContainerContentChanging"
+                        ItemContainerStyle="{StaticResource NavMenuItemContainerStyle}"
+                        ItemTemplate="{StaticResource NavMenuItemTemplate}"
+                        ItemInvoked="NavMenuList_ItemInvoked"/>
 
                     <!-- TODO: Keith - Create multiple NavMenulists and put headers to split them up. Can reference which page to go to them using Back/Next buttons-->
                 </Grid>

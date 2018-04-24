@@ -278,12 +278,12 @@ namespace AppInstallerFileGenerator.Views
 
         private void Next_Button_Click(object sender, RoutedEventArgs e)
         {
-            AppShell.Current.AppFrame.Navigate(AppShell.Current.navlist[4].DestPage);
+            AppShell.Current.AppFrame.Navigate(AppShell.Current.navlist2[2].DestPage);
         }
 
         private void Back_Button_Click(object sender, RoutedEventArgs e)
         {
-            AppShell.Current.AppFrame.Navigate(AppShell.Current.navlist[2].DestPage);
+            AppShell.Current.AppFrame.Navigate(AppShell.Current.navlist2[0].DestPage);
         }
 
         private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)

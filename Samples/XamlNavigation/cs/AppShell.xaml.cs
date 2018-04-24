@@ -53,33 +53,44 @@ namespace AppInstallerFileGenerator
 					Label = "Main Package",
 					DestPage = typeof(MainPackageView)
 				},
-				new NavMenuItem()
-				{
-					Label = "Optional Packages",
-					DestPage = typeof(OptionalPackagesView)
-				},
-				new NavMenuItem()
-				{
-					Label = "Related Packages",
-					DestPage = typeof(RelatedPackagesView)
-				},
-				new NavMenuItem()
-				{
-					Label = "Dependencies",
-					DestPage = typeof(DependenciesView)
-				},
-				new NavMenuItem()
-				{
-					Label = "Update Settings",
-					DestPage = typeof(UpdateSettingsView)
-				},
                 new NavMenuItem()
                 {
-                    Label = "Finish",
+                    Label = "Update Settings",
+                    DestPage = typeof(UpdateSettingsView)
+                },
+            });
+
+        public List<NavMenuItem> navlist2 = new List<NavMenuItem>(
+            new[]
+            {
+                 new NavMenuItem()
+                {
+                    Label = "Optional Packages",
+                    DestPage = typeof(OptionalPackagesView)
+                },
+                new NavMenuItem()
+                {
+                    Label = "Related Packages",
+                    DestPage = typeof(RelatedPackagesView)
+                },
+                new NavMenuItem()
+                {
+                    Label = "Dependencies",
+                    DestPage = typeof(DependenciesView)
+                },
+            });
+
+        public List<NavMenuItem> navlist3 = new List<NavMenuItem>(
+            new[]
+            {
+                new NavMenuItem()
+                {
+                    Label = "Generate File",
                     DestPage = typeof(GenerateXMLView)
                 },
             });
-        
+
+       
         public static AppShell Current = null;
 
         /// <summary>
@@ -118,10 +129,11 @@ namespace AppInstallerFileGenerator
 
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
             
-
-
             
             NavMenuList.ItemsSource = navlist;
+            NavMenuList2.ItemsSource = navlist2;
+            NavMenuList3.ItemsSource = navlist3;
+
         }
 
         public Frame AppFrame { get { return this.frame; } }
@@ -239,6 +251,14 @@ namespace AppInstallerFileGenerator
             {
                 i.IsSelected = false;
             }
+            foreach (var i in navlist2)
+            {
+                i.IsSelected = false;
+            }
+            foreach (var i in navlist3)
+            {
+                i.IsSelected = false;
+            }
 
             var item = (NavMenuItem)((NavMenuListView)sender).ItemFromContainer(listViewItem);
 
@@ -264,11 +284,28 @@ namespace AppInstallerFileGenerator
            if (e.NavigationMode == NavigationMode.New)
             {
                 //Updates nav menu if invoked from back/next buttons.
-                {             
-                    var item = (from p in this.navlist where p.DestPage == e.SourcePageType select p).SingleOrDefault();
+                {
+                    List<NavMenuItem> newList = new List<NavMenuItem>();
+                    newList.Add(navlist[0]);
+                    newList.Add(navlist[1]);
+                    newList.Add(navlist[2]);
+                    newList.Add(navlist2[0]);
+                    newList.Add(navlist2[1]);
+                    newList.Add(navlist2[2]);
+                    newList.Add(navlist3[0]);
+
+                    var item = (from p in (newList) where p.DestPage == e.SourcePageType select p).SingleOrDefault();
 
                     //Set blue tab indicator for selected page
                     foreach (var i in this.navlist)
+                    {
+                        i.IsSelected = false;
+                    }
+                    foreach (var i in this.navlist2)
+                    {
+                        i.IsSelected = false;
+                    }
+                    foreach (var i in this.navlist3)
                     {
                         i.IsSelected = false;
                     }
