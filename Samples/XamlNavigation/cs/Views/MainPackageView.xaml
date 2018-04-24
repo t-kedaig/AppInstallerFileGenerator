@@ -20,14 +20,14 @@
                 x:Uid="Main_Package_Title"
                 x:Name="TitlePage"
                 FontWeight="Light"
-                Style="{StaticResource PageTitleStyle}" Margin="10,0,12,25" FontSize="30" />
+                Style="{StaticResource PageTitleStyle}" Margin="10,0,12,20" FontSize="30" />
 
             <StackPanel Grid.Row="1">
 
                 <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                     <TextBlock
                     x:Uid="Package_Type"
-                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,8" FontSize="18"
+                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,6" FontSize="15"
                      />
                     <ComboBox
                     x:Uid="Package_Type_Combo_Box" Width="200"
@@ -39,33 +39,18 @@
                     </ComboBox>
                 </StackPanel>
 
-                <StackPanel Margin="{StaticResource SettingsSubheaderMargin}" x:Name="Processor_Type_Stack_Panel">
-                    <TextBlock
-                    x:Uid="Processor_Type"
-                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,8" FontSize="18"
-                     />
-                    <ComboBox
-                    x:Uid="Processor_Type_Combo_Box" Width="200"
-                    x:Name="Processor_Type_Combo_Box"
-                    SelectionChanged="Processor_Type_Combo_Box_SelectionChanged"
-                    >
-                        <ComboBoxItem>None</ComboBoxItem>
-                        <ComboBoxItem>x64</ComboBoxItem>
-                        <ComboBoxItem>x86</ComboBoxItem>
-                        <ComboBoxItem>ARM</ComboBoxItem>
-                        <ComboBoxItem>Neutral</ComboBoxItem>
-                    </ComboBox>
-                </StackPanel>
+                
 
                 <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                     <TextBlock
                     x:Uid="File_Path"
-                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="18" Margin="0,0,0,8"
+                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="15" Margin="0,0,0,6"
                      />
                     <TextBox 
                     x:Uid="File_Path_Text_Box"
                     x:Name="File_Path_Text_Box"
                     TextChanged="File_Path_Text_Box_TextChanged"
+                    PlaceholderText="Enter the package location"
                     HorizontalAlignment="Left"
                     Width="300"
                 />
@@ -74,7 +59,7 @@
                 <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                     <TextBlock
                     x:Uid="Version"
-                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="18" Margin="0,0,0,8"
+                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="15" Margin="0,0,0,6"
                      />
                     <TextBox 
                     x:Uid="Version_Text_Box"
@@ -88,7 +73,7 @@
                 <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                     <TextBlock
                     x:Uid="Publisher"
-                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="18" Margin="0,0,0,8"
+                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="15" Margin="0,0,0,6"
                      />
                     <TextBox 
                     x:Uid="Publisher_Text_Box"
@@ -102,30 +87,48 @@
                 <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                     <TextBlock
                     x:Uid="Name"
-                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="18" Margin="0,0,0,8"
+                    Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="15" Margin="0,0,0,6"
                      />
                     <TextBox 
                     x:Uid="Name_Text_Box"
                     x:Name="Name_Text_Box"
-                    Margin="0,0,0,0"
                     TextChanged="Name_Text_Box_TextChanged"
                     HorizontalAlignment="Left"
                     Width="300"
                     />
-                </StackPanel>
-                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                </StackPanel >
+
+                    <StackPanel x:Name="Resource_Id_Stack_Panel" Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
                         x:Uid="Resource_Id"
-                        Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="18" Margin="0,0,0,8"
-                         />
+                        Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="15" Margin="0,0,0,6"
+                        />
                         <TextBox 
                         x:Uid="Resource_Id_Text_box"
                         x:Name="Resource_Id_Text_Box"
-                        Margin="0,0,0,80"
                         TextChanged="Resource_Id_Text_Box_TextChanged"
                         HorizontalAlignment="Left"
                         Width="300"
-                        />
+                    />
+                    </StackPanel>
+
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}"  x:Name="Processor_Type_Stack_Panel">
+                        <TextBlock
+                        x:Uid="Processor_Type"
+                        Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,6" FontSize="15"
+                         />
+                        <ComboBox
+                        x:Uid="Processor_Type_Combo_Box" Width="200"
+                        x:Name="Processor_Type_Combo_Box"
+                        Margin="0,0,0,80"
+                        SelectionChanged="Processor_Type_Combo_Box_SelectionChanged"
+                        >
+                            <ComboBoxItem>None</ComboBoxItem>
+                            <ComboBoxItem>x64</ComboBoxItem>
+                            <ComboBoxItem>x86</ComboBoxItem>
+                            <ComboBoxItem>ARM</ComboBoxItem>
+                            <ComboBoxItem>Neutral</ComboBoxItem>
+                        </ComboBox>
                     </StackPanel>
                 </StackPanel>
         </Grid>

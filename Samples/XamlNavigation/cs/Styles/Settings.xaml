@@ -16,7 +16,7 @@
 
     <!--Custom size margins-->
     <Thickness x:Key="PageTitleMargin">12,0,12,25</Thickness>
-    <Thickness x:Key="SettingsSubheaderMargin">12, 0, 0, 25</Thickness>
+    <Thickness x:Key="SettingsSubheaderMargin">12, 0, 0, 20</Thickness>
 
     <!--Medium size margins-->
     <Thickness x:Key="MediumLeftRightMargin">12,0,12,0</Thickness>

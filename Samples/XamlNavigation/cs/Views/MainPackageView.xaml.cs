@@ -36,6 +36,7 @@ namespace AppInstallerFileGenerator.Views
         private TextBox _nameTextBox;
         private String _resourceId;
         private TextBox _resourceIdTextBox;
+        private StackPanel _resourceIdStackPanel;
         private ProcessorArchitecture _processorArchitecture;
 
         private StackPanel _processorTypeStackPanel;
@@ -59,6 +60,7 @@ namespace AppInstallerFileGenerator.Views
             _processorTypeComboBox = (ComboBox)this.FindName("Processor_Type_Combo_Box");
 
             _processorTypeStackPanel = (StackPanel)this.FindName("Processor_Type_Stack_Panel");
+            _resourceIdStackPanel = (StackPanel)this.FindName("Resource_Id_Stack_Panel");
         }
 
         /***************************************************************************
@@ -134,10 +136,12 @@ namespace AppInstallerFileGenerator.Views
             if (_packageType == PackageType.Appx)
             {
                 _processorTypeStackPanel.Visibility = Visibility.Visible;
+                _resourceIdStackPanel.Visibility = Visibility.Visible;
             }
             else
             {
                 _processorTypeStackPanel.Visibility = Visibility.Collapsed;
+                _resourceIdStackPanel.Visibility = Visibility.Collapsed;
                 _processorArchitecture = ProcessorArchitecture.none; //TODO: Since appxbundle cant have architecture specified.
             }
         }

@@ -24,14 +24,14 @@
                         x:Uid="AppInstaller_Title"
                         x:Name="TitlePage"
                         FontWeight="Light"
-                        Style="{StaticResource PageTitleStyle}" FontSize="30" Padding="1,0,0,0" Margin="12,0,10,25" />
+                        Style="{StaticResource PageTitleStyle}" FontSize="30" Padding="1,0,0,0" Margin="12,0,10,20" />
 
                 <StackPanel 
             Grid.Row="1">
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
                             x:Uid="File_Path"
-                            Style="{StaticResource SubtitleTextBlockStyle}" FontSize="18" Padding="0,0,0,8"
+                            Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Padding="0,0,0,6"
                         />
                         <TextBox 
                             x:Uid="File_Path_Text_Box"
@@ -45,7 +45,7 @@
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
                             x:Uid="Version"
-                            Style="{StaticResource SubtitleTextBlockStyle}" Padding="0,0,0,8" FontSize="18"
+                            Style="{StaticResource SubtitleTextBlockStyle}" Padding="0,0,0,6" FontSize="15"
                         />
                         <TextBox 
                             x:Uid="Version_Text_Box"

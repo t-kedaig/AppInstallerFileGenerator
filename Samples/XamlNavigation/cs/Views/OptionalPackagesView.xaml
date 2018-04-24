@@ -22,11 +22,11 @@
                         x:Uid="Optional_Packages_Title"
                         x:Name="TitlePage"
                         FontWeight="Light"
-                        Style="{StaticResource PageTitleStyle}" FontSize="30" FontFamily="Segoe UI" Margin="0,0,12,25" 
+                        Style="{StaticResource PageTitleStyle}" FontSize="30" FontFamily="Segoe UI" Margin="0,0,12,20" 
                     />
                 <TextBlock
                         x:Uid="Use_Optional_Packages"
-                        Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,8" FontSize="18"
+                        Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,0" FontSize="15"
                         />
                 <ToggleSwitch
                         x:Uid="Optional_Packages_Switch"
@@ -44,7 +44,7 @@
                         <TextBlock
                         x:Uid="Package_Type"
                         x:Name="Package_Type"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontFamily="Segoe UI" FontSize="18" Margin="0,0,-1,8" Padding="1,0,0,0"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontFamily="Segoe UI" FontSize="15" Margin="0,0,-1,6" Padding="1,0,0,0"
                     />
                         <ComboBox
                         x:Uid="Package_Type_Combo_Box" Width="200"
@@ -58,7 +58,7 @@
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}" x:Name="Processor_Type_Stack_Panel">
                         <TextBlock
                         x:Uid="Processor_Type"
-                        Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,8" FontSize="18"
+                        Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" Margin="0,0,0,6" FontSize="15"
                          />
                         <ComboBox
                         x:Uid="Processor_Type_Combo_Box" Width="200"
@@ -77,7 +77,7 @@
                         <TextBlock
                         x:Uid="File_Path"
                         x:Name="File_Path"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="18" Margin="0,0,0,8" Padding="1,0,0,0"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
                     />
                         <TextBox 
                         x:Uid="File_Path_Text_Box"
@@ -92,7 +92,7 @@
                         <TextBlock
                         x:Uid="Version"
                         x:Name="Version"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="18" Margin="0,0,0,8" Padding="1,0,0,0"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
                     />
                         <TextBox 
                         x:Uid="Version_Text_Box"
@@ -107,7 +107,7 @@
                         <TextBlock
                         x:Uid="Publisher"
                         x:Name="Publisher"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="18" Margin="0,0,0,8" Padding="1,0,0,0"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
                     />
                         <TextBox 
                         x:Uid="Publisher_Text_Box"
@@ -122,7 +122,7 @@
                         <TextBlock
                         x:Uid="Name"
                         x:Name="Name"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="18" Margin="0,0,0,8" Padding="1,0,0,0"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
                     />
                         <TextBox 
                         x:Uid="Name_Text_Box"
