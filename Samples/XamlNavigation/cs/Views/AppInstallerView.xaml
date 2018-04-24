@@ -31,6 +31,7 @@
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
                             x:Uid="File_Path"
+                            ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyApp.appinstaller"
                             Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Padding="0,0,0,6"
                         />
                         <TextBox 
@@ -38,13 +39,16 @@
                             x:Name="File_Path_Text_Box"
                             HorizontalAlignment="Left"
                             TextChanged="File_Path_Text_Box_TextChanged"
-                            Width="300"
+                            PlaceholderText="Enter the file location"
+                            ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyApp.appinstaller"
+                            Width="400"
                         />
                     </StackPanel>
 
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
                             x:Uid="Version"
+                            ToolTipService.ToolTip="e.g. 1.0.0.0"
                             Style="{StaticResource SubtitleTextBlockStyle}" Padding="0,0,0,6" FontSize="15"
                         />
                         <TextBox 
@@ -52,8 +56,10 @@
                             x:Name="Version_Number_Text_Box"
                             Margin="0,0,0,80"
                             HorizontalAlignment="Left"
+                            PlaceholderText="Enter the file version"
+                            ToolTipService.ToolTip="e.g. 1.0.0.0"                            
                             TextChanged="Version_Text_Box_TextChanged"
-                            Width="300"
+                            Width="400"
                         />
                     </StackPanel>
 

@@ -149,7 +149,7 @@
     <comment>Default content for the about settings flyout. Shown when data context is null.</comment>
   </data>
   <data name="AppInstaller_Title.Text" xml:space="preserve">
-    <value>AppInstaller</value>
+    <value>AppInstaller File</value>
   </data>
   <data name="File_Path.Text" xml:space="preserve">
     <value>File Path</value>
@@ -185,7 +185,7 @@
     <value>Check for updates on app launch</value>
   </data>
   <data name="Update_Frequency.Text" xml:space="preserve">
-    <value>Update Frequency</value>
+    <value>Hours between update checks</value>
   </data>
   <data name="Generate_File_Title.Text" xml:space="preserve">
     <value>Generate File</value>

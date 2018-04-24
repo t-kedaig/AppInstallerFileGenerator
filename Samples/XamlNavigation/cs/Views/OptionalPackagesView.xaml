@@ -55,6 +55,78 @@
                         </ComboBox>
                     </StackPanel>
 
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                        <TextBlock
+                        x:Uid="File_Path"
+                        x:Name="File_Path"
+                        ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyOptionalPackage.appx"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
+                    />
+                        <TextBox 
+                        x:Uid="File_Path_Text_Box"
+                        ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyOptionalPackage.appx"
+                        x:Name="File_Path_Text_Box"
+                        PlaceholderText="Enter the package location"
+                        TextChanged="File_Path_Text_Box_TextChanged"
+                        HorizontalAlignment="Left"
+                        Width="400"
+                    />
+                    </StackPanel>
+
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                        <TextBlock
+                        x:Uid="Version"
+                        ToolTipService.ToolTip="e.g. 1.0.0.0"
+                        x:Name="Version"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
+                    />
+                        <TextBox 
+                            x:Uid="Version_Text_Box"
+                            ToolTipService.ToolTip="e.g. 1.0.0.0"
+                            PlaceholderText="Enter the package version"
+                            x:Name="Version_Text_Box"
+                            TextChanged="Version_Text_Box_TextChanged"
+                            HorizontalAlignment="Left"
+                         Width="400"
+                    />
+                    </StackPanel>
+
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                        <TextBlock
+                            x:Uid="Publisher"
+                            ToolTipService.ToolTip="e.g. CN=janedoe"
+                            x:Name="Publisher"
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
+                    />
+                        <TextBox 
+                            x:Uid="Publisher_Text_Box"
+                            x:Name="Publisher_Text_Box"
+                            ToolTipService.ToolTip="e.g. CN=janedoe"
+                            PlaceholderText="Enter the package publisher"
+                            TextChanged="Publisher_Text_Box_TextChanged"
+                            HorizontalAlignment="Left"
+                            Width="400"
+                    />
+                    </StackPanel>
+
+                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
+                        <TextBlock
+                          x:Uid="Name"
+                          x:Name="Name"
+                          ToolTipService.ToolTip="e.g. MyCompany.MySuite.MyApp"
+                          Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
+                    />
+                        <TextBox 
+                            x:Uid="Name_Text_Box"
+                            x:Name="Name_Text_Box"
+                            ToolTipService.ToolTip="e.g. MyCompany.MySuite.MyApp"
+                            PlaceholderText="Enter the package name"
+                            TextChanged="Name_Text_Box_TextChanged"
+                            HorizontalAlignment="Left"
+                            Width="400"
+                    />
+                    </StackPanel>
+
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}" x:Name="Processor_Type_Stack_Panel">
                         <TextBlock
                         x:Uid="Processor_Type"
@@ -63,6 +135,7 @@
                         <ComboBox
                         x:Uid="Processor_Type_Combo_Box" Width="200"
                         x:Name="Processor_Type_Combo_Box"
+                        Margin="0,0,0,80"
                         SelectionChanged="Processor_Type_Combo_Box_SelectionChanged"
                         >
                             <ComboBoxItem>None</ComboBoxItem>
@@ -71,67 +144,6 @@
                             <ComboBoxItem>ARM</ComboBoxItem>
                             <ComboBoxItem>Neutral</ComboBoxItem>
                         </ComboBox>
-                    </StackPanel>
-
-                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
-                        <TextBlock
-                        x:Uid="File_Path"
-                        x:Name="File_Path"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
-                    />
-                        <TextBox 
-                        x:Uid="File_Path_Text_Box"
-                        x:Name="File_Path_Text_Box"
-                        TextChanged="File_Path_Text_Box_TextChanged"
-                        HorizontalAlignment="Left"
-                        Width="300"
-                    />
-                    </StackPanel>
-
-                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
-                        <TextBlock
-                        x:Uid="Version"
-                        x:Name="Version"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
-                    />
-                        <TextBox 
-                        x:Uid="Version_Text_Box"
-                        x:Name="Version_Text_Box"
-                        TextChanged="Version_Text_Box_TextChanged"
-                        HorizontalAlignment="Left"
-                        Width="300"
-                    />
-                    </StackPanel>
-
-                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
-                        <TextBlock
-                        x:Uid="Publisher"
-                        x:Name="Publisher"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
-                    />
-                        <TextBox 
-                        x:Uid="Publisher_Text_Box"
-                        x:Name="Publisher_Text_Box"
-                        TextChanged="Publisher_Text_Box_TextChanged"
-                        HorizontalAlignment="Left"
-                        Width="300"
-                    />
-                    </StackPanel>
-
-                    <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
-                        <TextBlock
-                        x:Uid="Name"
-                        x:Name="Name"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
-                    />
-                        <TextBox 
-                        x:Uid="Name_Text_Box"
-                        x:Name="Name_Text_Box"
-                        Margin="0,0,0,80"
-                        TextChanged="Name_Text_Box_TextChanged"
-                        HorizontalAlignment="Left"
-                        Width="300"
-                    />
                     </StackPanel>
 
                 </StackPanel>

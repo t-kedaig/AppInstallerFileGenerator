@@ -44,6 +44,7 @@
                 <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                     <TextBlock
                     x:Uid="File_Path"
+                    ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyApp.appx"
                     Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="15" Margin="0,0,0,6"
                      />
                     <TextBox 
@@ -51,64 +52,77 @@
                     x:Name="File_Path_Text_Box"
                     TextChanged="File_Path_Text_Box_TextChanged"
                     PlaceholderText="Enter the package location"
+                    ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyApp.appx"
                     HorizontalAlignment="Left"
-                    Width="300"
+                    Width="400"
                 />
                 </StackPanel>
 
                 <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                     <TextBlock
                     x:Uid="Version"
+                    ToolTipService.ToolTip="e.g. 1.0.0.0"
                     Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="15" Margin="0,0,0,6"
                      />
                     <TextBox 
                     x:Uid="Version_Text_Box"
                     x:Name="Version_Text_Box"
                     TextChanged="Version_Text_Box_TextChanged"
+                    PlaceholderText="Enter the package version"
+                    ToolTipService.ToolTip="e.g. 1.0.0.0"
                     HorizontalAlignment="Left"
-                    Width="300"
+                    Width="400"
                 />
                 </StackPanel>
 
                 <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                     <TextBlock
                     x:Uid="Publisher"
+                    ToolTipService.ToolTip="e.g. CN=janedoe"
                     Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="15" Margin="0,0,0,6"
                      />
                     <TextBox 
                     x:Uid="Publisher_Text_Box"
                     x:Name="Publisher_Text_Box"
                     TextChanged="Publisher_Text_Box_TextChanged"
+                    ToolTipService.ToolTip="e.g. CN=janedoe"
+                    PlaceholderText="Enter the package publisher"
                     HorizontalAlignment="Left"
-                    Width="300"
+                    Width="400"
                 />
                 </StackPanel>
 
                 <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                     <TextBlock
                     x:Uid="Name"
+                    ToolTipService.ToolTip="e.g. MyCompany.MySuite.MyApp"
                     Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="15" Margin="0,0,0,6"
                      />
                     <TextBox 
                     x:Uid="Name_Text_Box"
                     x:Name="Name_Text_Box"
                     TextChanged="Name_Text_Box_TextChanged"
+                    ToolTipService.ToolTip="e.g. MyCompany.MySuite.MyApp"
+                    PlaceholderText="Enter the package name"
                     HorizontalAlignment="Left"
-                    Width="300"
+                    Width="400"
                     />
                 </StackPanel >
 
                     <StackPanel x:Name="Resource_Id_Stack_Panel" Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
                         x:Uid="Resource_Id"
+                        ToolTipService.ToolTip="e.g. English"
                         Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="15" Margin="0,0,0,6"
                         />
                         <TextBox 
                         x:Uid="Resource_Id_Text_box"
                         x:Name="Resource_Id_Text_Box"
                         TextChanged="Resource_Id_Text_Box_TextChanged"
+                        ToolTipService.ToolTip="e.g. English"
+                        PlaceholderText="Enter the resource Id"
                         HorizontalAlignment="Left"
-                        Width="300"
+                        Width="400"
                     />
                     </StackPanel>
 

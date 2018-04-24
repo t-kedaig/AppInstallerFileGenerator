@@ -45,7 +45,7 @@ namespace AppInstallerFileGenerator
             {
                 new NavMenuItem()
                 {
-                    Label = "AppInstaller",
+                    Label = "AppInstaller File",
                     DestPage = typeof(AppInstallerView)
                 },
 				new NavMenuItem()
