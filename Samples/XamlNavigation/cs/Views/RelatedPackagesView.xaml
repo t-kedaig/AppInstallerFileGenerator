@@ -20,7 +20,14 @@
                     x:Uid="Related_Packages_Title"
                     x:Name="TitlePage"
                     FontWeight="Light"
-                    Style="{StaticResource PageTitleStyle}" FontSize="30" FontFamily="Segoe UI" Margin="0,0,12,20" 
+                    Style="{StaticResource PageTitleStyle}" FontSize="30" FontFamily="Segoe UI" Margin="0,0,12,5" 
+                />
+
+                <TextBlock
+                    Text="* Required"
+                    FontWeight="Light"
+                    Foreground="Red"
+                    FontSize="14" Padding="1,0,0,0" Margin="0,0,10,20"
                 />
                 <TextBlock
                     x:Uid="Use_Related_Packages"

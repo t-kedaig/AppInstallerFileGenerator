@@ -31,14 +31,8 @@
                         x:Name="Generate_Button"
                         x:Uid="Generate_Button"
                         Content="Generate AppInstaller File"
-                        Click="Generate_File_Button_Click"
+                        Click="Generate_File_Button_Click"                        
                     />
-
-                        <TextBlock 
-                        
-                    />
-                        
-
                     </StackPanel>
                 </StackPanel>
             </Grid>

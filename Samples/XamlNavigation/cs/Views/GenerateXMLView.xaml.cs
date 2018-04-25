@@ -64,6 +64,7 @@ namespace AppInstallerFileGenerator.Views
 
                     //AppInstaller Content
                     appInstallerDCS.WriteStartObject(xdw, appInstaller);
+                    xdw.WriteAttributeString("xmlns", "http://schemas.microsoft.com/appx/appinstaller/2017"); //TODO: Keith - Is this current schema reference?
                     xdw.WriteAttributeString("Uri", App.AppInstallerFilePath);
                     xdw.WriteAttributeString("Version", App.AppInstallerVersionNumber);
 
