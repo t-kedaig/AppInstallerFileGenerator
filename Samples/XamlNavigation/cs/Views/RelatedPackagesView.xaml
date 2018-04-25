@@ -40,10 +40,11 @@
 
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
-                        x:Uid="Package_Type"
                         x:Name="Package_Type"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontFamily="Segoe UI" FontSize="15" Margin="0,0,-1,6" Padding="1,0,0,0"
-                    />
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontFamily="Segoe UI" FontSize="15" Margin="0,0,-1,6" Padding="1,0,0,0">
+                            <Run Text="Package Type" />
+                            <Run Text="*" Foreground="Red" />
+                        </TextBlock>
                         <ComboBox
                         x:Uid="Package_Type_Combo_Box" Width="200"
                         x:Name="Package_Type_Combo_Box"
@@ -55,11 +56,12 @@
 
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
-                        x:Uid="File_Path"
                         x:Name="File_Path"
                         ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyRelatedPackage.appx"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
-                    />
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0">
+                            <Run Text="File Path" />
+                            <Run Text="*" Foreground="Red" />
+                        </TextBlock>
                         <TextBox 
                         x:Uid="File_Path_Text_Box"
                         ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyRelatedPackage.appx"
@@ -73,11 +75,12 @@
 
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
-                        x:Uid="Version"
                         ToolTipService.ToolTip="e.g. 1.0.0.0"
                         x:Name="Version"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
-                    />
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0">
+                            <Run Text="Version" />
+                            <Run Text="*" Foreground="Red" />
+                        </TextBlock>
                         <TextBox 
                             x:Uid="Version_Text_Box"
                             ToolTipService.ToolTip="e.g. 1.0.0.0"
@@ -91,11 +94,12 @@
 
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
-                            x:Uid="Publisher"
                             ToolTipService.ToolTip="e.g. CN=janedoe"
                             x:Name="Publisher"
-                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
-                    />
+                        Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0">
+                            <Run Text="Publisher" />
+                            <Run Text="*" Foreground="Red" />
+                        </TextBlock>
                         <TextBox 
                             x:Uid="Publisher_Text_Box"
                             x:Name="Publisher_Text_Box"
@@ -109,11 +113,12 @@
 
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
-                          x:Uid="Name"
                           x:Name="Name"
                           ToolTipService.ToolTip="e.g. MyCompany.MySuite.MyApp"
-                          Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0"
-                    />
+                          Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0">
+                            <Run Text="Name" />
+                            <Run Text="*" Foreground="Red" />
+                        </TextBlock>
                         <TextBox 
                             x:Uid="Name_Text_Box"
                             x:Name="Name_Text_Box"
@@ -145,8 +150,6 @@
                     </StackPanel>
 
                 </StackPanel>
-
-
             </Grid>
         </ScrollViewer>
 

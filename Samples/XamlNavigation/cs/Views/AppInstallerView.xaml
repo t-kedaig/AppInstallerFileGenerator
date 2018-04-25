@@ -24,16 +24,21 @@
                         x:Uid="AppInstaller_Title"
                         x:Name="TitlePage"
                         FontWeight="Light"
-                        Style="{StaticResource PageTitleStyle}" FontSize="30" Padding="1,0,0,0" Margin="12,0,10,20" />
+                        Style="{StaticResource PageTitleStyle}" FontSize="30" Padding="1,0,0,0" Margin="12,0,10,5" />
 
-                <StackPanel 
-            Grid.Row="1">
+                <TextBlock
+                        Grid.Row="1"
+                        Text="* Required"
+                        FontWeight="Light"
+                        Foreground="Red"
+                        FontSize="14" Padding="1,0,0,0" Margin="12,0,10,20" />
+
+                <StackPanel Grid.Row="2">
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
-                        <TextBlock
-                            x:Uid="File_Path"
-                            ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyApp.appinstaller"
-                            Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Padding="0,0,0,6"
-                        />
+                        <TextBlock  Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Padding="1,0,0,6" ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyApp.appinstaller">
+                            <Run  Text="File Path" />
+                            <Run  Text="*" Foreground="Red"/>
+                        </TextBlock>
                         <TextBox 
                             x:Uid="File_Path_Text_Box"
                             x:Name="File_Path_Text_Box"
@@ -47,10 +52,11 @@
 
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
-                            x:Uid="Version"
                             ToolTipService.ToolTip="e.g. 1.0.0.0"
-                            Style="{StaticResource SubtitleTextBlockStyle}" Padding="0,0,0,6" FontSize="15"
-                        />
+                            Style="{StaticResource SubtitleTextBlockStyle}" Padding="0,0,0,6" FontSize="15">
+                            <Run  Text="Version" />
+                            <Run  Text="*" Foreground="Red"/>          
+                        </TextBlock>
                         <TextBox 
                             x:Uid="Version_Text_Box"
                             x:Name="Version_Number_Text_Box"
@@ -66,7 +72,6 @@
                 </StackPanel>
             </Grid>
         </ScrollViewer>
-
 
         <RelativePanel
             Background="#e6e3e3"
