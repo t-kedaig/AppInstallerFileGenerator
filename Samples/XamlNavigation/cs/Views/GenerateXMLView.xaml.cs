@@ -1,6 +1,7 @@
 ﻿using AppInstallerFileGenerator;
 using AppInstallerFileGenerator.Model;
 using System;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.Serialization;
@@ -97,23 +98,23 @@ namespace AppInstallerFileGenerator.Views
                     }
 
                     //Optional Packages Content
-                    OptionalPackage[] optionalPackages = new OptionalPackage[App.OptionalPackageFilePaths.Length]; 
+                    ObservableCollection<OptionalPackage> optionalPackages = App.OptionalPackages; 
                     DataContractSerializer optionalPackageDCS = new DataContractSerializer(typeof(OptionalPackage));
-                    if (optionalPackages.Length > 0 && App.IsOptionalPackages)
+                    if (optionalPackages.Count > 0 && App.IsOptionalPackages)
                     {
                         optionalPackageDCS.WriteStartObject(xdw, optionalPackages[0]);
-                        for (int i = 0; i < optionalPackages.Length; i++)
+                        for (int i = 0; i < optionalPackages.Count; i++)
                         {
                             //Write package or bundle element
-                            if (App.OptionalPackageTypes[i] == PackageType.Appx)
+                            if (optionalPackages[i].PackageType == PackageType.Appx)
                             {
                                 Package package = new Package(
-                                    App.OptionalPackageFilePaths[i],
-                                    App.OptionalPackageVersions[i],
-                                    App.OptionalPackagePublishers[i],
-                                    App.OptionalPackageNames[i],
-                                    App.OptionalPackageTypes[i],
-                                    App.OptionalPackageProcessorArchitectures[i]
+                                    optionalPackages[i].FilePath,
+                                    optionalPackages[i].Version,
+                                    optionalPackages[i].Publisher,
+                                    optionalPackages[i].Name,
+                                    optionalPackages[i].PackageType,
+                                    optionalPackages[i].ProcessorArchitecture            
                                 );
 
                                 DataContractSerializer packageDCS = new DataContractSerializer(typeof(Package));
@@ -128,14 +129,14 @@ namespace AppInstallerFileGenerator.Views
                                 xdw.WriteAttributeString("Name", package.Name);
                                 packageDCS.WriteEndObject(xdw);
                             }
-                            else if (App.OptionalPackageTypes[i] == PackageType.Appxbundle)
+                            else if (optionalPackages[i].PackageType == PackageType.Appxbundle)
                             {
                                 Bundle bundle = new Bundle(
-                                    App.OptionalPackageFilePaths[i],
-                                    App.OptionalPackageVersions[i],
-                                    App.OptionalPackagePublishers[i],
-                                    App.OptionalPackageNames[i],
-                                    App.OptionalPackageTypes[i]
+                                     optionalPackages[i].FilePath,
+                                    optionalPackages[i].Version,
+                                    optionalPackages[i].Publisher,
+                                    optionalPackages[i].Name,
+                                    optionalPackages[i].PackageType
                                 );
 
                                 DataContractSerializer bundleDCS = new DataContractSerializer(typeof(Bundle));
@@ -312,9 +313,9 @@ namespace AppInstallerFileGenerator.Views
 
             if (App.IsOptionalPackages == true)
             {
-                for (int i = 0; i < App.OptionalPackageFilePaths.Length; i++)
+                for (int i = 0; i < App.OptionalPackages.Count; i++)
                 {
-                    if (App.OptionalPackageFilePaths[i] == "" || App.OptionalPackageNames[i] == "" || App.OptionalPackagePublishers[i] == "" || App.OptionalPackageVersions[i] == "")
+                    if (App.OptionalPackages[i].FilePath == "" || App.OptionalPackages[i].Name == "" || App.OptionalPackages[i].Publisher == "" || App.OptionalPackages[i].Version == "")
                     {
                         _displayMissingOptionalPackageInformationDialog();
                         return false;

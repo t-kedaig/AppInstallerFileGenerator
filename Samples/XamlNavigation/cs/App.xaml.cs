@@ -22,10 +22,11 @@ using Windows.ApplicationModel.Core;
 
 namespace AppInstallerFileGenerator
 {
+    using System.Collections.ObjectModel;
     using Views;
     using Windows.UI;
     using Windows.UI.ViewManagement;
-    
+
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
@@ -48,15 +49,15 @@ namespace AppInstallerFileGenerator
         internal static String MainPackageResourceId = "";
         internal static ProcessorArchitecture MainPackageProcessorArchitecture = ProcessorArchitecture.none;
 
-        //TODO: Keith - remove sample packages.
         internal static bool IsOptionalPackages = false;
-        internal static PackageType[] OptionalPackageTypes = new PackageType[] {PackageType.Appx};
-        internal static String[] OptionalPackageFilePaths = new String[] {"test"};
-        internal static String[] OptionalPackageVersions = new String[] {"sdf"};
-        internal static String[] OptionalPackagePublishers = new String[] { "sdf" };
-        internal static String[] OptionalPackageNames = new String[] { "sdf" };
-        internal static ProcessorArchitecture[] OptionalPackageProcessorArchitectures = new ProcessorArchitecture[] {ProcessorArchitecture.none, ProcessorArchitecture.none};
+        internal static OptionalPackage defaultOptionalPackage = new OptionalPackage();
+        internal static OptionalPackage testOptionalPackage = new OptionalPackage("tetwetw", "wtt", "wet", "tew", PackageType.Appx, ProcessorArchitecture.none);
 
+        internal static ObservableCollection<OptionalPackage> OptionalPackages = new ObservableCollection<OptionalPackage>();
+        
+
+        //TODO: Keith - remove sample packages.
+        
         internal static bool IsRelatedPackages = false;
         internal static PackageType[] RelatedPackageTypes = new PackageType[] {PackageType.Appx};
         internal static String[] RelatedPackageFilePaths = new String[] {"testt"};
@@ -81,6 +82,10 @@ namespace AppInstallerFileGenerator
         public App()
         {
             this.InitializeComponent();
+
+            //TODO: Is this where to do this? How to Initialize?
+            OptionalPackages.Add(defaultOptionalPackage);
+            OptionalPackages.Add(testOptionalPackage);
           
             this.Suspending += OnSuspending;
         }
