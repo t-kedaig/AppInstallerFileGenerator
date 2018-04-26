@@ -65,7 +65,7 @@ namespace AppInstallerFileGenerator.Views
 
                     //AppInstaller Content
                     appInstallerDCS.WriteStartObject(xdw, appInstaller);
-                    xdw.WriteAttributeString("xmlns", "http://schemas.microsoft.com/appx/appinstaller/2017"); //TODO: Keith - Is this current schema reference?
+                    xdw.WriteAttributeString("xmlns", "http://schemas.microsoft.com/appx/appinstaller/2017");
                     xdw.WriteAttributeString("Uri", App.AppInstallerFilePath);
                     xdw.WriteAttributeString("Version", App.AppInstallerVersionNumber);
 
@@ -78,7 +78,10 @@ namespace AppInstallerFileGenerator.Views
                         xdw.WriteAttributeString("Uri", mainPackage.FilePath);
                         xdw.WriteAttributeString("Version", mainPackage.Version);
                         xdw.WriteAttributeString("Publisher", mainPackage.Publisher);
-                        xdw.WriteAttributeString("ResourceId", mainPackage.ResourceId);
+                        if (mainPackage.ResourceId != "")
+                        {
+                            xdw.WriteAttributeString("ResourceId", mainPackage.ResourceId);
+                        }
                         if (mainPackage.ProcessorArchitecture != ProcessorArchitecture.none)
                         {
                             xdw.WriteAttributeString("ProcessorArchitecture", mainPackage.ProcessorArchitecture.ToString());

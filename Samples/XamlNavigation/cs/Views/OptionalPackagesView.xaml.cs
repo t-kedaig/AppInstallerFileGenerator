@@ -28,11 +28,26 @@ namespace AppInstallerFileGenerator.Views
     {
 
         private ToggleSwitch _optionalPackagesSwitch;
-        private ListView _packageListView;
-        private StackPanel _processorTypeStackPanel;
+        private RelativePanel _packageListView;
+        private TextBlock _addNewPackageTextBlock; 
         
         private ObservableCollection<OptionalPackage> _optionalPackages = new ObservableCollection<OptionalPackage>();
-        public ObservableCollection<OptionalPackage> OptionalPackages { get { return this._optionalPackages; } }
+        public ObservableCollection<OptionalPackage> OptionalPackages
+        {
+            get
+            {
+                return this._optionalPackages;
+            }
+
+            set
+            {
+                if (value != this._optionalPackages)
+                {
+                    this._optionalPackages = value;
+                    NotifyPropertyChanged("OptionalPackages");
+                }
+            }
+        }
 
         private bool _isOptionalPackages;
         public bool IsOptionalPackages
@@ -48,6 +63,7 @@ namespace AppInstallerFileGenerator.Views
                 {
                     this._isOptionalPackages = value;
                     NotifyPropertyChanged("IsOptionalPackages");
+                    
                 }
             }
 
@@ -70,8 +86,8 @@ namespace AppInstallerFileGenerator.Views
             this.DataContext = this;
             this.NavigationCacheMode = NavigationCacheMode.Required;
             _optionalPackagesSwitch = (ToggleSwitch)this.FindName("Optional_Packages_Switch");
-            _packageListView = (ListView)this.FindName("Package_List_View");
-            _processorTypeStackPanel = (StackPanel)this.FindName("Processor_Type_Stack_Panel");
+            _packageListView = (RelativePanel)this.FindName("Package_Relative_Panel");
+            _addNewPackageTextBlock = (TextBlock)this.FindName("Add_New_Package_Text_Block");
             
         }
 
@@ -91,14 +107,7 @@ namespace AppInstallerFileGenerator.Views
             Debug.WriteLine("Publisher: " + _optionalPackages[0].Publisher);
             Debug.WriteLine("Package Type: " + _optionalPackages[0].PackageType.ToString());
             Debug.WriteLine("Name: " + _optionalPackages[0].Name);
-
-            Debug.WriteLine("Package 2");
-            Debug.WriteLine("File Path: " + _optionalPackages[1].FilePath);
-            Debug.WriteLine("Version: " + _optionalPackages[1].Version);
-            Debug.WriteLine("Publisher: " + _optionalPackages[1].Publisher);
-            Debug.WriteLine("Package Type: " + _optionalPackages[1].PackageType.ToString());
-            Debug.WriteLine("Name: " + _optionalPackages[1].Name);
-
+            
             _reloadViews();
             base.OnNavigatedTo(e);
         }
@@ -164,6 +173,10 @@ namespace AppInstallerFileGenerator.Views
             _save();
         }
 
-       
+        private void Add_New_Package_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            _optionalPackages.Add(new OptionalPackage()); //May also need NotifiedPropertyChange or other listener!
+            _save();
+        }
     }
 }

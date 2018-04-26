@@ -95,6 +95,14 @@ namespace AppInstallerFileGenerator.Model
             }
         }
 
+        public String PackageTypeAsString
+        {
+            get
+            {
+                return _packageType.ToString();
+            }
+        }
+
         public ProcessorArchitecture ProcessorArchitecture
         {
             get { return _processorArchitecture; }
@@ -103,6 +111,7 @@ namespace AppInstallerFileGenerator.Model
                 _processorArchitecture = value;
             }
         }
+
 
         public IList<PackageType> PackageTypes
         {

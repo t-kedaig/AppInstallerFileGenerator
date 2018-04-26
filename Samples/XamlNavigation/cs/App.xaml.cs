@@ -74,7 +74,6 @@ namespace AppInstallerFileGenerator
         internal static String[] DependencyNames = new String[] { "testt" };
         internal static ProcessorArchitecture[] DependencyProcessorArchitectures = new ProcessorArchitecture[] { ProcessorArchitecture.none };
 
-
         internal static bool IsCheckUpdates = false;
         internal static int HoursBetweenUpdates = 0;
     
@@ -83,7 +82,7 @@ namespace AppInstallerFileGenerator
         {
             this.InitializeComponent();
 
-            //TODO: Is this where to do this? How to Initialize?
+            //TODO: Don't Initialize this here. Just do from add button.
             OptionalPackages.Add(defaultOptionalPackage);
           
             this.Suspending += OnSuspending;
