@@ -103,5 +103,23 @@ namespace AppInstallerFileGenerator.Model
                 _processorArchitecture = value;
             }
         }
+
+        public IList<PackageType> PackageTypes
+        {
+            get
+            {
+                // Will result in a list like {"Appx", "AppxBundle"}
+                return Enum.GetValues(typeof(PackageType)).Cast<PackageType>().ToList<PackageType>();
+            }
+        }
+
+        public IList<ProcessorArchitecture> ProcessorTypes
+        {
+            get
+            {
+                // Will result in a list like {"Arm", "x64"}
+                return Enum.GetValues(typeof(ProcessorArchitecture)).Cast<ProcessorArchitecture>().ToList<ProcessorArchitecture>();
+            }
+        }
     }
 }

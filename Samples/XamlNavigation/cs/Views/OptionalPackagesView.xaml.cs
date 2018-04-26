@@ -163,5 +163,7 @@ namespace AppInstallerFileGenerator.Views
             _reloadViews();
             _save();
         }
+
+       
     }
 }

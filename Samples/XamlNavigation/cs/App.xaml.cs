@@ -85,7 +85,6 @@ namespace AppInstallerFileGenerator
 
             //TODO: Is this where to do this? How to Initialize?
             OptionalPackages.Add(defaultOptionalPackage);
-            OptionalPackages.Add(testOptionalPackage);
           
             this.Suspending += OnSuspending;
         }
