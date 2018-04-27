@@ -121,13 +121,11 @@ namespace AppInstallerFileGenerator.Views
             if (OptionalPackages.Count > 0)
             {
                 _removePackageTextBlock.Visibility = Visibility.Visible;
-            } else
+            }
+            else
             {
                 _removePackageTextBlock.Visibility = Visibility.Collapsed;
             }
-            //TODO: Keith - Remove this to enable remove package
-            _removePackageTextBlock.Visibility = Visibility.Collapsed;
-
 
         }
 
@@ -166,31 +164,6 @@ namespace AppInstallerFileGenerator.Views
             _reloadViews();
             _save();
         }
-
-
-        //private void Chck_Checked(object sender, RoutedEventArgs e)
-        //{
-        //    CheckBox chk = (CheckBox)sender;
-        //    OptionalPackage newVal = (OptionalPackage)chk.Tag;
-        //    if (chk.IsChecked.HasValue && chk.IsChecked.Value)
-        //    {
-        //        selectedItems.Add(newVal);
-        //    }
-        //    else
-        //    {
-        //        selectedItems.Remove(newVal);
-        //    }
-        //}
-
-        //private void Button_Click(object sender, RoutedEventArgs e)
-        //{
-        //    foreach (var item in selectedItems)
-        //    {
-        //        _optionalPackages.Remove(item); 
-        //    }
-        //    selectedItems.Clear();
-        //    _save();
-        //}
     }
 }
 

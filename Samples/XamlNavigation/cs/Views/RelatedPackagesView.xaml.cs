@@ -116,7 +116,6 @@ namespace AppInstallerFileGenerator.Views
 
         private void _save()
         {
-            //Problem is getting null reference exception - trying to access optionalpackages when it is null?
             App.RelatedPackages = RelatedPackages;
             App.IsRelatedPackages = _isRelatedPackages;
         }
@@ -142,33 +141,6 @@ namespace AppInstallerFileGenerator.Views
             RelatedPackages.Add(new RelatedPackage());
             _save();
         }
-        //TODO: KEITH - REMOVING THEM DOESNT WORK YET. NEED TO IMPLEMENT CHECK OR FIND OUT A DIFFERENT METHOD. "UNCHECKING" ISNT WORKING AND MAY HAVE TO DO WITH NOT BINDING CORRECTLY --> THIS IS CAUSING NULL EXCEPTION CRASH
-
-        //private void Chck_Checked(object sender, RoutedEventArgs e)
-        //{
-        //    CheckBox chk = (CheckBox)sender;
-        //    RelatedPackage newVal = (RelatedPackage)chk.Tag;
-        //    if (chk.IsChecked.HasValue && chk.IsChecked.Value)
-        //    {
-        //        selectedItems.Add(newVal);
-        //    }
-        //    else
-        //    {
-        //        selectedItems.Remove(newVal);
-        //    }
-        //}
-
-        //private void Button_Click(object sender, RoutedEventArgs e)
-        //{
-        //    foreach (var item in selectedItems)
-        //    {
-        //        _relatedPackages.Remove(item);
-        //    }
-        //    selectedItems.Clear();
-        //    _save();
-        //}
+       
     }
 }
-
-
-//Giving nullreferenceexception..._optionalpackages becomes null after remiving the last element...need to add a (if _optionalPalcages != nulll) somewehre

@@ -58,8 +58,7 @@
                 </StackPanel>
                 <ScrollViewer  Grid.Row="1" Grid.Column="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollMode="Enabled">
                     <RelativePanel x:Name="Package_Relative_Panel">
-                        <ListView  x:Name="List_View" Margin="-12,0,0,0" ItemContainerStyle="{StaticResource ListViewContainerStyle}" Style="{StaticResource ListViewContainerStyle10}" ItemsSource="{x:Bind OptionalPackages}" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollMode="Disabled"  SelectionMode="None">
-                            
+                        <ListView  x:Name="List_View" Margin="-12,0,0,0"  ItemContainerStyle="{StaticResource ListViewContainerStyle}" ItemsSource="{x:Bind OptionalPackages}" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollMode="Disabled"  SelectionMode="None">
                             <ListView.ItemTemplate>
                                 <DataTemplate x:DataType="Model:OptionalPackage">
                                     <StackPanel>
@@ -75,6 +74,7 @@
                                             x:Name="Package_Type_Combo_Box"
                                                 ItemsSource="{x:Bind PackageTypes}"
                                                 SelectedItem="{x:Bind PackageType, Mode=TwoWay}">
+                                                <!-- The above line causes a crash -->
                                             </ComboBox>
                                         </StackPanel>
 
@@ -168,7 +168,7 @@
                                             Margin="0,0,0,5"
                                             
                                             SelectedItem="{x:Bind ProcessorArchitecture, Mode=TwoWay}">
-                                        
+                                                <!-- The above line causes a crash-->
                                             </ComboBox>
                                         </StackPanel>
                                         
