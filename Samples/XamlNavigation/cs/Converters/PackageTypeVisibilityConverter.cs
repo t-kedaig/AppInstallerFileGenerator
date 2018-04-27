@@ -14,8 +14,6 @@ namespace AppInstallerFileGenerator.Converters
     {
         public object Convert(object value, Type targetType, object parameter, string language)
         {
-            Debug.WriteLine("Value.ToString: " + value.ToString());
-            Debug.WriteLine("msixbundle.ToString: " + PackageType.msixbundle.ToString());
             if (value.ToString() == PackageType.msixbundle.ToString())
             {
                 return Visibility.Collapsed;

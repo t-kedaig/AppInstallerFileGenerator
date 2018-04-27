@@ -40,14 +40,8 @@ namespace AppInstallerFileGenerator
 
         internal static string AppInstallerFilePath = "";
         internal static string AppInstallerVersionNumber = "";
-
-        internal static PackageType MainPackageType = PackageType.MSIX;
-        internal static String MainPackageFilePath = "";
-        internal static String MainPackageVersion = "";
-        internal static String MainPackagePublisher = "";
-        internal static String MainPackageName = "";
-        internal static String MainPackageResourceId = "";
-        internal static ProcessorArchitecture MainPackageProcessorArchitecture = ProcessorArchitecture.none;
+        
+        internal static MainPackage MainPackage = new MainPackage();
 
         internal static bool IsOptionalPackages = false;
         internal static ObservableCollection<OptionalPackage> OptionalPackages = new ObservableCollection<OptionalPackage>();

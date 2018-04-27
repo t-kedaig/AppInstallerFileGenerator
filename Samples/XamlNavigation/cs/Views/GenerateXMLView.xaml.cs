@@ -69,10 +69,10 @@ namespace AppInstallerFileGenerator.Views
                     xdw.WriteAttributeString("Version", App.AppInstallerVersionNumber);
 
                     //Main Package Content
-                    if (App.MainPackageType == PackageType.MSIX)
+                    if (App.MainPackage.PackageType == PackageType.MSIX)
                     {
                         DataContractSerializer mainPackageDCS = new DataContractSerializer(typeof(MainPackage));
-                        MainPackage mainPackage = new MainPackage(App.MainPackageFilePath, App.MainPackageVersion, App.MainPackagePublisher, App.MainPackageName, App.MainPackageType, App.MainPackageProcessorArchitecture, App.MainPackageResourceId); 
+                        MainPackage mainPackage = new MainPackage(App.MainPackage.FilePath, App.MainPackage.Version, App.MainPackage.Publisher, App.MainPackage.Name, App.MainPackage.PackageType, App.MainPackage.ProcessorArchitecture, App.MainPackage.ResourceId); 
                         mainPackageDCS.WriteStartObject(xdw, mainPackage);
                         xdw.WriteAttributeString("Uri", mainPackage.FilePath);
                         xdw.WriteAttributeString("Version", mainPackage.Version);
@@ -87,10 +87,10 @@ namespace AppInstallerFileGenerator.Views
                         }
                         xdw.WriteAttributeString("Name", mainPackage.Name);
                         mainPackageDCS.WriteEndObject(xdw);
-                    } else if (App.MainPackageType == PackageType.msixbundle)
+                    } else if (App.MainPackage.PackageType == PackageType.msixbundle)
                     {
                         DataContractSerializer mainBundleDCS = new DataContractSerializer(typeof(MainBundle));
-                        MainBundle mainBundle = new MainBundle(App.MainPackageFilePath, App.MainPackageVersion, App.MainPackagePublisher, App.MainPackageName); 
+                        MainBundle mainBundle = new MainBundle(App.MainPackage.FilePath, App.MainPackage.Version, App.MainPackage.Publisher, App.MainPackage.Name); 
                         mainBundleDCS.WriteStartObject(xdw, mainBundle);
                         xdw.WriteAttributeString("Uri", mainBundle.FilePath);
                         xdw.WriteAttributeString("Version", mainBundle.Version);
@@ -308,7 +308,7 @@ namespace AppInstallerFileGenerator.Views
                 return false;
             }
 
-            if (App.MainPackageFilePath == "" || App.MainPackageName == "" || App.MainPackagePublisher == "" || App.MainPackageVersion == "")
+            if (App.MainPackage.FilePath == "" || App.MainPackage.Name == "" || App.MainPackage.Publisher == "" || App.MainPackage.Version == "")
             {
                 _displayMissingMainPackageInformationDialog();
                 return false;

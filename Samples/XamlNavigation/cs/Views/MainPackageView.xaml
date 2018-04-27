@@ -40,10 +40,11 @@
                     <ComboBox
                         x:Uid="Package_Type_Combo_Box" Width="200"
                         x:Name="Package_Type_Combo_Box"
+                        SelectedItem="{x:Bind _mainPackage.PackageType, Mode=TwoWay}"
                         SelectionChanged="Package_Type_Combo_Box_SelectionChanged"
+                        ItemsSource="{x:Bind _mainPackage.PackageTypes}"
                     >
-                        <ComboBoxItem>.appx</ComboBoxItem>
-                        <ComboBoxItem>.appxbundle</ComboBoxItem>
+                       
                     </ComboBox>
                 </StackPanel>
 
@@ -58,7 +59,7 @@
                         <TextBox 
                     x:Uid="File_Path_Text_Box"
                     x:Name="File_Path_Text_Box"
-                    TextChanged="File_Path_Text_Box_TextChanged"
+                    Text="{x:Bind _mainPackage.FilePath, Mode=TwoWay}"
                     PlaceholderText="Enter the package location"
                     ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyApp.msix"
                     HorizontalAlignment="Left"
@@ -77,7 +78,7 @@
                         <TextBox 
                     x:Uid="Version_Text_Box"
                     x:Name="Version_Text_Box"
-                    TextChanged="Version_Text_Box_TextChanged"
+                    Text="{x:Bind _mainPackage.Version, Mode=TwoWay}"
                     PlaceholderText="Enter the package version"
                     ToolTipService.ToolTip="e.g. 1.0.0.0"
                     HorizontalAlignment="Left"
@@ -95,7 +96,7 @@
                     <TextBox 
                     x:Uid="Publisher_Text_Box"
                     x:Name="Publisher_Text_Box"
-                    TextChanged="Publisher_Text_Box_TextChanged"
+                    Text="{x:Bind _mainPackage.Publisher, Mode=TwoWay}"
                     ToolTipService.ToolTip="e.g. CN=janedoe"
                     PlaceholderText="Enter the package publisher"
                     HorizontalAlignment="Left"
@@ -113,7 +114,7 @@
                     <TextBox 
                     x:Uid="Name_Text_Box"
                     x:Name="Name_Text_Box"
-                    TextChanged="Name_Text_Box_TextChanged"
+                    Text="{x:Bind _mainPackage.Name, Mode=TwoWay}"
                     ToolTipService.ToolTip="e.g. MyCompany.MySuite.MyApp"
                     PlaceholderText="Enter the package name"
                     HorizontalAlignment="Left"
@@ -130,7 +131,7 @@
                         <TextBox 
                         x:Uid="Resource_Id_Text_box"
                         x:Name="Resource_Id_Text_Box"
-                        TextChanged="Resource_Id_Text_Box_TextChanged"
+                        Text="{x:Bind _mainPackage.ResourceId, Mode=TwoWay}"
                         ToolTipService.ToolTip="e.g. English"
                         PlaceholderText="Enter the resource Id"
                         HorizontalAlignment="Left"
@@ -147,13 +148,11 @@
                         x:Uid="Processor_Type_Combo_Box" Width="200"
                         x:Name="Processor_Type_Combo_Box"
                         Margin="0,0,0,80"
+                        SelectedItem="{x:Bind _mainPackage.ProcessorArchitecture, Mode=TwoWay}" 
                         SelectionChanged="Processor_Type_Combo_Box_SelectionChanged"
+                        ItemsSource="{x:Bind _mainPackage.ProcessorTypes}"
+
                         >
-                            <ComboBoxItem>None</ComboBoxItem>
-                            <ComboBoxItem>x64</ComboBoxItem>
-                            <ComboBoxItem>x86</ComboBoxItem>
-                            <ComboBoxItem>ARM</ComboBoxItem>
-                            <ComboBoxItem>Neutral</ComboBoxItem>
                         </ComboBox>
                     </StackPanel>
                 </StackPanel>
