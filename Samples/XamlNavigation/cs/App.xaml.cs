@@ -46,6 +46,9 @@ namespace AppInstallerFileGenerator
         internal static bool IsOptionalPackages = false;
         internal static ObservableCollection<OptionalPackage> OptionalPackages = new ObservableCollection<OptionalPackage>();
 
+        internal static bool IsModificationPackages = false;
+        internal static ObservableCollection<ModificationPackage> ModificationPackages = new ObservableCollection<ModificationPackage>();
+
         internal static bool IsRelatedPackages = false;
         internal static ObservableCollection<RelatedPackage> RelatedPackages = new ObservableCollection<RelatedPackage>();
 

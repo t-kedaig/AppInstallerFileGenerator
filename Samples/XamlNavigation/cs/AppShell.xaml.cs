@@ -73,6 +73,11 @@ namespace AppInstallerFileGenerator
                     Label = "Related Packages",
                     DestPage = typeof(RelatedPackagesView)
                 },
+                 new NavMenuItem()
+                {
+                    Label = "Modification Packages",
+                    DestPage = typeof(ModificationPackagesView)
+                },
                 new NavMenuItem()
                 {
                     Label = "Dependencies",
@@ -292,6 +297,7 @@ namespace AppInstallerFileGenerator
                     newList.Add(navlist2[0]);
                     newList.Add(navlist2[1]);
                     newList.Add(navlist2[2]);
+                    newList.Add(navlist2[3]);
                     newList.Add(navlist3[0]);
 
                     var item = (from p in (newList) where p.DestPage == e.SourcePageType select p).SingleOrDefault();

@@ -208,4 +208,10 @@
   <data name="Resource_Id.Text" xml:space="preserve">
     <value>Resource Id</value>
   </data>
+  <data name="Modification_Packages_Title.Text" xml:space="preserve">
+    <value>Modification Packages</value>
+  </data>
+  <data name="Use_Modification_Packages.Text" xml:space="preserve">
+    <value>Modification Packages</value>
+  </data>
 </root>

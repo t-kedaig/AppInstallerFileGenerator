@@ -154,6 +154,60 @@ namespace AppInstallerFileGenerator.Views
                     }
 
 
+                    //Modification Packages Content
+                    ObservableCollection<ModificationPackage> modificationPackages = App.ModificationPackages;
+                    DataContractSerializer modificationPackageDCS = new DataContractSerializer(typeof(ModificationPackage));
+                    if (modificationPackages.Count > 0 && App.IsModificationPackages)
+                    {
+                        modificationPackageDCS.WriteStartObject(xdw, modificationPackages[0]);
+                        for (int i = 0; i < modificationPackages.Count; i++)
+                        {
+                            //Write package or bundle element
+                            if (modificationPackages[i].PackageType == PackageType.MSIX)
+                            {
+                                Package package = new Package(
+                                    modificationPackages[i].FilePath,
+                                    modificationPackages[i].Version,
+                                    modificationPackages[i].Publisher,
+                                    modificationPackages[i].Name,
+                                    modificationPackages[i].PackageType,
+                                    modificationPackages[i].ProcessorArchitecture
+                                );
+
+                                DataContractSerializer packageDCS = new DataContractSerializer(typeof(Package));
+                                packageDCS.WriteStartObject(xdw, package);
+                                xdw.WriteAttributeString("Version", package.Version);
+                                xdw.WriteAttributeString("Uri", package.FilePath);
+                                xdw.WriteAttributeString("Publisher", package.Publisher);
+                                if (package.ProcessorArchitecture != ProcessorArchitecture.none && package.PackageType != PackageType.msixbundle)
+                                {
+                                    xdw.WriteAttributeString("ProcessorArchitecture", package.ProcessorArchitecture.ToString());
+                                }
+                                xdw.WriteAttributeString("Name", package.Name);
+                                packageDCS.WriteEndObject(xdw);
+                            }
+                            else if (modificationPackages[i].PackageType == PackageType.msixbundle)
+                            {
+                                Bundle bundle = new Bundle(
+                                     modificationPackages[i].FilePath,
+                                    modificationPackages[i].Version,
+                                    modificationPackages[i].Publisher,
+                                   modificationPackages[i].Name,
+                                    modificationPackages[i].PackageType
+                                );
+
+                                DataContractSerializer bundleDCS = new DataContractSerializer(typeof(Bundle));
+                                bundleDCS.WriteStartObject(xdw, bundle);
+                                xdw.WriteAttributeString("Version", bundle.Version);
+                                xdw.WriteAttributeString("Uri", bundle.FilePath);
+                                xdw.WriteAttributeString("Publisher", bundle.Publisher);
+                                xdw.WriteAttributeString("Name", bundle.Name);
+                                bundleDCS.WriteEndObject(xdw);
+                            }
+                        }
+                        modificationPackageDCS.WriteEndObject(xdw);
+                    }
+
                     //Related Packages Content
                     ObservableCollection<RelatedPackage> relatedPackages = App.RelatedPackages;
                     DataContractSerializer relatedPackageDCS = new DataContractSerializer(typeof(RelatedPackage));
@@ -338,6 +392,18 @@ namespace AppInstallerFileGenerator.Views
                 }
             }
 
+            if (App.IsModificationPackages == true)
+            {
+                for (int i = 0; i < App.ModificationPackages.Count; i++)
+                {
+                    if (App.ModificationPackages[i].FilePath == "" || App.ModificationPackages[i].Name == "" || App.ModificationPackages[i].Publisher == "" || App.ModificationPackages[i].Version == "")
+                    {
+                        _displayMissingModificationPackageInformationDialog();
+                        return false;
+                    }
+                }
+            }
+
             if (App.IsDependencies == true)
             {
                 for (int i = 0; i < App.Dependencies.Count; i++)
@@ -424,6 +490,18 @@ namespace AppInstallerFileGenerator.Views
             {
                 Title = "Error: Incomplete Related Package Information",
                 Content = "The file could not be created as a required field was left empty on the Related Package page. Please fill in all required fields on this page.",
+                CloseButtonText = "Ok"
+            };
+
+            ContentDialogResult result = await failDialog.ShowAsync();
+        }
+
+        private async void _displayMissingModificationPackageInformationDialog()
+        {
+            ContentDialog failDialog = new ContentDialog
+            {
+                Title = "Error: Incomplete Modification Package Information",
+                Content = "The file could not be created as a required field was left empty on the Modification Package page. Please fill in all required fields on this page.",
                 CloseButtonText = "Ok"
             };
 

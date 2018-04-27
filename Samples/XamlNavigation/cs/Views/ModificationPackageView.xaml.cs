@@ -1,5 +1,9 @@
-﻿using System;
+﻿using AppInstallerFileGenerator.Model;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -12,60 +16,56 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using System.Diagnostics;
-using System.ComponentModel;
-using System.Collections.ObjectModel;
-using AppInstallerFileGenerator.Model;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace AppInstallerFileGenerator.Views
 {
-	/// <summary>
-	/// An empty page that can be used on its own or navigated to within a Frame.
-	/// </summary>
-	public sealed partial class DependenciesView : Page , INotifyPropertyChanged
+    /// <summary>
+    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// </summary>
+    public sealed partial class ModificationPackagesView : Page, INotifyPropertyChanged
     {
 
-        private ToggleSwitch _dependenciesSwitch;
+        private ToggleSwitch _modificationPackagesSwitch;
         private RelativePanel _packageListView;
         private ListView _listView;
         private TextBlock _addNewPackageTextBlock;
 
-        ObservableCollection<Dependency> selectedItems = new ObservableCollection<Dependency>();
+        ObservableCollection<ModificationPackage> selectedItems = new ObservableCollection<ModificationPackage>();
 
-        private ObservableCollection<Dependency> _dependencies = new ObservableCollection<Dependency>();
-        public ObservableCollection<Dependency> Dependencies
+        private ObservableCollection<ModificationPackage> _modificationPackages = new ObservableCollection<ModificationPackage>();
+        public ObservableCollection<ModificationPackage> ModificationPackages
         {
             get
             {
-                return this._dependencies;
+                return this._modificationPackages;
             }
 
             set
             {
-                if (value != this._dependencies)
+                if (value != this._modificationPackages)
                 {
-                    this._dependencies = value;
-                    NotifyPropertyChanged("Dependencies");
+                    this._modificationPackages = value;
+                    NotifyPropertyChanged("ModificationPackages");
                 }
             }
         }
 
-        private bool _isDependencies;
-        public bool IsDependencies
+        private bool _isModificationPackages;
+        public bool IsModificationPackages
         {
             get
             {
-                return this._isDependencies;
+                return this._isModificationPackages;
             }
 
             set
             {
-                if (value != this._isDependencies)
+                if (value != this._isModificationPackages)
                 {
-                    this._isDependencies = value;
-                    NotifyPropertyChanged("IsDependencies");
+                    this._isModificationPackages = value;
+                    NotifyPropertyChanged("IsModificationPackages");
 
                 }
             }
@@ -83,12 +83,12 @@ namespace AppInstallerFileGenerator.Views
         * Constructor
         *
         ***************************************************************************/
-        public DependenciesView()
+        public ModificationPackagesView()
         {
             this.InitializeComponent();
             this.DataContext = this;
             this.NavigationCacheMode = NavigationCacheMode.Required;
-            _dependenciesSwitch = (ToggleSwitch)this.FindName("Dependencies_Switch");
+            _modificationPackagesSwitch = (ToggleSwitch)this.FindName("Modification_Packages_Switch");
             _packageListView = (RelativePanel)this.FindName("Package_Relative_Panel");
             _listView = (ListView)this.FindName("List_View");
             _addNewPackageTextBlock = (TextBlock)this.FindName("Add_New_Package_Text_Block");
@@ -102,7 +102,7 @@ namespace AppInstallerFileGenerator.Views
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            _dependencies = App.Dependencies;
+            _modificationPackages = App.ModificationPackages;
 
             _reloadViews();
             base.OnNavigatedTo(e);
@@ -123,7 +123,7 @@ namespace AppInstallerFileGenerator.Views
 
         private void _reloadViews()
         {
-            if (!_isDependencies)
+            if (!_isModificationPackages)
             {
                 _packageListView.Visibility = Visibility.Collapsed;
             }
@@ -136,19 +136,19 @@ namespace AppInstallerFileGenerator.Views
         private void _save()
         {
             //Problem is getting null reference exception - trying to access optionalpackages when it is null?
-            App.Dependencies = _dependencies;
+            App.ModificationPackages = _modificationPackages;
 
-            App.IsDependencies = _isDependencies;
+            App.IsModificationPackages = _isModificationPackages;
         }
 
         private void Next_Button_Click(object sender, RoutedEventArgs e)
         {
-            AppShell.Current.AppFrame.Navigate(AppShell.Current.navlist3[0].DestPage);
+            AppShell.Current.AppFrame.Navigate(AppShell.Current.navlist2[3].DestPage);
         }
 
         private void Back_Button_Click(object sender, RoutedEventArgs e)
         {
-            AppShell.Current.AppFrame.Navigate(AppShell.Current.navlist2[2].DestPage);
+            AppShell.Current.AppFrame.Navigate(AppShell.Current.navlist2[1].DestPage);
         }
 
         private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
@@ -159,7 +159,7 @@ namespace AppInstallerFileGenerator.Views
 
         private void Add_New_Package_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            _dependencies.Add(new Dependency());
+            _modificationPackages.Add(new ModificationPackage());
             _save();
         }
 
