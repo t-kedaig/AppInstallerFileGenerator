@@ -31,26 +31,11 @@ namespace AppInstallerFileGenerator.Views
         private RelativePanel _packageListView;
         private ListView _listView;
         private TextBlock _addNewPackageTextBlock;
+        private TextBlock _removePackageTextBlock;
 
         ObservableCollection<OptionalPackage> selectedItems = new ObservableCollection<OptionalPackage>();
 
-        private ObservableCollection<OptionalPackage> _optionalPackages = new ObservableCollection<OptionalPackage>();
-        public ObservableCollection<OptionalPackage> OptionalPackages
-        {
-            get
-            {
-                return this._optionalPackages;
-            }
-
-            set
-            {
-                if (value != this._optionalPackages)
-                {
-                    this._optionalPackages = value;
-                    NotifyPropertyChanged("OptionalPackages");
-                }
-            }
-        }
+        public ObservableCollection<OptionalPackage> OptionalPackages { get; private set; } = new ObservableCollection<OptionalPackage>();
 
         private bool _isOptionalPackages;
         public bool IsOptionalPackages
@@ -92,6 +77,7 @@ namespace AppInstallerFileGenerator.Views
             _packageListView = (RelativePanel)this.FindName("Package_Relative_Panel");
             _listView = (ListView)this.FindName("List_View");
             _addNewPackageTextBlock = (TextBlock)this.FindName("Add_New_Package_Text_Block");
+            _removePackageTextBlock = (TextBlock)this.FindName("Remove_Package_Text_Block");
         }
 
        /***************************************************************************
@@ -102,7 +88,7 @@ namespace AppInstallerFileGenerator.Views
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            _optionalPackages = App.OptionalPackages;
+            OptionalPackages = App.OptionalPackages;
 
             _reloadViews();
             base.OnNavigatedTo(e);
@@ -131,13 +117,23 @@ namespace AppInstallerFileGenerator.Views
             {
                 _packageListView.Visibility = Visibility.Visible;
             }
+
+            if (OptionalPackages.Count > 0)
+            {
+                _removePackageTextBlock.Visibility = Visibility.Visible;
+            } else
+            {
+                _removePackageTextBlock.Visibility = Visibility.Collapsed;
+            }
+            //TODO: Keith - Remove this to enable remove package
+            _removePackageTextBlock.Visibility = Visibility.Collapsed;
+
+
         }
 
         private void _save()
         {
-            //Problem is getting null reference exception - trying to access optionalpackages when it is null?
-            App.OptionalPackages = _optionalPackages;
-            
+            App.OptionalPackages = OptionalPackages;
             App.IsOptionalPackages = _isOptionalPackages;
         }
 
@@ -159,11 +155,18 @@ namespace AppInstallerFileGenerator.Views
 
         private void Add_New_Package_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            _optionalPackages.Add(new OptionalPackage()); 
+            OptionalPackages.Add(new OptionalPackage());
+            _reloadViews();
             _save();
         }
 
-        //TODO: KEITH - REMOVING THEM DOESNT WORK YET. NEED TO IMPLEMENT CHECK OR FIND OUT A DIFFERENT METHOD. "UNCHECKING" ISNT WORKING AND MAY HAVE TO DO WITH NOT BINDING CORRECTLY --> THIS IS CAUSING NULL EXCEPTION CRASH
+        private void Remove_Package_Text_Block_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            OptionalPackages.RemoveAt(OptionalPackages.Count - 1);
+            _reloadViews();
+            _save();
+        }
+
 
         //private void Chck_Checked(object sender, RoutedEventArgs e)
         //{
@@ -192,4 +195,3 @@ namespace AppInstallerFileGenerator.Views
 }
 
 
-//Giving nullreferenceexception..._optionalpackages becomes null after remiving the last element...need to add a (if _optionalPalcages != nulll) somewehre

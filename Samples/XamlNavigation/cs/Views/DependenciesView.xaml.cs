@@ -34,23 +34,7 @@ namespace AppInstallerFileGenerator.Views
 
         ObservableCollection<Dependency> selectedItems = new ObservableCollection<Dependency>();
 
-        private ObservableCollection<Dependency> _dependencies = new ObservableCollection<Dependency>();
-        public ObservableCollection<Dependency> Dependencies
-        {
-            get
-            {
-                return this._dependencies;
-            }
-
-            set
-            {
-                if (value != this._dependencies)
-                {
-                    this._dependencies = value;
-                    NotifyPropertyChanged("Dependencies");
-                }
-            }
-        }
+        public ObservableCollection<Dependency> Dependencies { get; private set; } = new ObservableCollection<Dependency>();
 
         private bool _isDependencies;
         public bool IsDependencies
@@ -102,7 +86,7 @@ namespace AppInstallerFileGenerator.Views
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            _dependencies = App.Dependencies;
+            Dependencies = App.Dependencies;
 
             _reloadViews();
             base.OnNavigatedTo(e);
@@ -136,7 +120,7 @@ namespace AppInstallerFileGenerator.Views
         private void _save()
         {
             //Problem is getting null reference exception - trying to access optionalpackages when it is null?
-            App.Dependencies = _dependencies;
+            App.Dependencies = Dependencies;
 
             App.IsDependencies = _isDependencies;
         }
@@ -159,7 +143,7 @@ namespace AppInstallerFileGenerator.Views
 
         private void Add_New_Package_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            _dependencies.Add(new Dependency());
+            Dependencies.Add(new Dependency());
             _save();
         }
 

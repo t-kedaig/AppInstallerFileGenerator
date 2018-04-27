@@ -55,15 +55,10 @@
                             Toggled="ToggleSwitch_Toggled"
                             >
                     </ToggleSwitch>
-                    <!--<Button
-                        Click="Button_Click"
-                        Content="Remove Packages"
-                        
-                    />-->
                 </StackPanel>
                 <ScrollViewer  Grid.Row="1" Grid.Column="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollMode="Enabled">
                     <RelativePanel x:Name="Package_Relative_Panel">
-                        <ListView  x:Name="List_View" Margin="-12,0,0,0" ItemsSource="{x:Bind OptionalPackages}" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollMode="Disabled"  SelectionMode="None">
+                        <ListView  x:Name="List_View" Margin="-12,0,0,0" ItemContainerStyle="{StaticResource ListViewContainerStyle}" Style="{StaticResource ListViewContainerStyle10}" ItemsSource="{x:Bind OptionalPackages}" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollMode="Disabled"  SelectionMode="None">
                             
                             <ListView.ItemTemplate>
                                 <DataTemplate x:DataType="Model:OptionalPackage">
@@ -76,10 +71,10 @@
                                                 <Run Text="*" Foreground="Red" />
                                             </TextBlock>
                                             <ComboBox
-                                        SelectedValue="{x:Bind PackageType, Mode=TwoWay}" ItemsSource="{x:Bind PackageTypes}"
                                             x:Uid="Package_Type_Combo_Box" Width="200"
                                             x:Name="Package_Type_Combo_Box"
-                                            >
+                                                ItemsSource="{x:Bind PackageTypes}"
+                                                SelectedItem="{x:Bind PackageType, Mode=TwoWay}">
                                             </ComboBox>
                                         </StackPanel>
 
@@ -169,13 +164,14 @@
                                             <ComboBox
                                             x:Uid="Processor_Type_Combo_Box" Width="200"
                                             x:Name="Processor_Type_Combo_Box"
+                                            ItemsSource="{x:Bind ProcessorTypes}"
                                             Margin="0,0,0,5"
-                                            SelectedValue="{x:Bind ProcessorArchitecture, Mode=TwoWay}" ItemsSource="{x:Bind ProcessorTypes}"
-                                        >
+                                            
+                                            SelectedItem="{x:Bind ProcessorArchitecture, Mode=TwoWay}">
+                                        
                                             </ComboBox>
                                         </StackPanel>
                                         
-                                        <!--<CheckBox Name="Chck" Checked="Chck_Checked" Width="50" Tag="{Binding}"></CheckBox> -->
                                         <Rectangle
                                             Width="800"
                                             Margin="12,0,0,20"
@@ -190,6 +186,10 @@
 
                         <TextBlock 
                             RelativePanel.Below="List_View" Margin="12,0,0,80" Text="Add Optional Package" Foreground="{ThemeResource SystemControlForegroundAccentBrush}" x:Name="Add_New_Package_Text_Block" Tapped="Add_New_Package_Tapped" 
+                        />
+
+                        <TextBlock 
+                           RelativePanel.Below="List_View" RelativePanel.RightOf="Add_New_Package_Text_Block" Margin="12,0,0,80" Text="Remove Package" Foreground="Red" x:Name="Remove_Package_Text_Block" Tapped="Remove_Package_Text_Block_Tapped" 
                         />
                     </RelativePanel>
                 </ScrollViewer>

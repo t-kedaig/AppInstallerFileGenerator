@@ -34,23 +34,7 @@ namespace AppInstallerFileGenerator.Views
 
         ObservableCollection<ModificationPackage> selectedItems = new ObservableCollection<ModificationPackage>();
 
-        private ObservableCollection<ModificationPackage> _modificationPackages = new ObservableCollection<ModificationPackage>();
-        public ObservableCollection<ModificationPackage> ModificationPackages
-        {
-            get
-            {
-                return this._modificationPackages;
-            }
-
-            set
-            {
-                if (value != this._modificationPackages)
-                {
-                    this._modificationPackages = value;
-                    NotifyPropertyChanged("ModificationPackages");
-                }
-            }
-        }
+        public ObservableCollection<ModificationPackage> ModificationPackages { get; private set; } = new ObservableCollection<ModificationPackage>();
 
         private bool _isModificationPackages;
         public bool IsModificationPackages
@@ -102,7 +86,7 @@ namespace AppInstallerFileGenerator.Views
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            _modificationPackages = App.ModificationPackages;
+            ModificationPackages = App.ModificationPackages;
 
             _reloadViews();
             base.OnNavigatedTo(e);
@@ -136,7 +120,7 @@ namespace AppInstallerFileGenerator.Views
         private void _save()
         {
             //Problem is getting null reference exception - trying to access optionalpackages when it is null?
-            App.ModificationPackages = _modificationPackages;
+            App.ModificationPackages = ModificationPackages;
 
             App.IsModificationPackages = _isModificationPackages;
         }
@@ -159,7 +143,7 @@ namespace AppInstallerFileGenerator.Views
 
         private void Add_New_Package_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            _modificationPackages.Add(new ModificationPackage());
+            ModificationPackages.Add(new ModificationPackage());
             _save();
         }
 

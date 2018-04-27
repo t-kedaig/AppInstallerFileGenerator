@@ -32,23 +32,7 @@ namespace AppInstallerFileGenerator.Views
 
         ObservableCollection<RelatedPackage> selectedItems = new ObservableCollection<RelatedPackage>();
 
-        private ObservableCollection<RelatedPackage> _relatedPackages = new ObservableCollection<RelatedPackage>();
-        public ObservableCollection<RelatedPackage> RelatedPackages
-        {
-            get
-            {
-                return this._relatedPackages;
-            }
-
-            set
-            {
-                if (value != this._relatedPackages)
-                {
-                    this._relatedPackages = value;
-                    NotifyPropertyChanged("RelatedPackages");
-                }
-            }
-        }
+        public ObservableCollection<RelatedPackage> RelatedPackages { get; private set; } = new ObservableCollection<RelatedPackage>();
 
         private bool _isRelatedPackages;
         public bool IsRelatedPackages
@@ -99,7 +83,7 @@ namespace AppInstallerFileGenerator.Views
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            _relatedPackages = App.RelatedPackages;
+            RelatedPackages = App.RelatedPackages;
 
             _reloadViews();
             base.OnNavigatedTo(e);
@@ -133,7 +117,7 @@ namespace AppInstallerFileGenerator.Views
         private void _save()
         {
             //Problem is getting null reference exception - trying to access optionalpackages when it is null?
-            App.RelatedPackages = _relatedPackages;
+            App.RelatedPackages = RelatedPackages;
             App.IsRelatedPackages = _isRelatedPackages;
         }
 
@@ -155,7 +139,7 @@ namespace AppInstallerFileGenerator.Views
 
         private void Add_New_Package_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            _relatedPackages.Add(new RelatedPackage());
+            RelatedPackages.Add(new RelatedPackage());
             _save();
         }
         //TODO: KEITH - REMOVING THEM DOESNT WORK YET. NEED TO IMPLEMENT CHECK OR FIND OUT A DIFFERENT METHOD. "UNCHECKING" ISNT WORKING AND MAY HAVE TO DO WITH NOT BINDING CORRECTLY --> THIS IS CAUSING NULL EXCEPTION CRASH

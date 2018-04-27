@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Collections;
 using System.Runtime.Serialization;
 using System.Xml;
+using System.Diagnostics;
 
 namespace AppInstallerFileGenerator.Model 
 {
