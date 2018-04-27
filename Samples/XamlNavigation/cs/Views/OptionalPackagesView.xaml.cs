@@ -29,8 +29,11 @@ namespace AppInstallerFileGenerator.Views
 
         private ToggleSwitch _optionalPackagesSwitch;
         private RelativePanel _packageListView;
-        private TextBlock _addNewPackageTextBlock; 
-        
+        private ListView _listView;
+        private TextBlock _addNewPackageTextBlock;
+
+        ObservableCollection<OptionalPackage> selectedItems = new ObservableCollection<OptionalPackage>();
+
         private ObservableCollection<OptionalPackage> _optionalPackages = new ObservableCollection<OptionalPackage>();
         public ObservableCollection<OptionalPackage> OptionalPackages
         {
@@ -87,11 +90,11 @@ namespace AppInstallerFileGenerator.Views
             this.NavigationCacheMode = NavigationCacheMode.Required;
             _optionalPackagesSwitch = (ToggleSwitch)this.FindName("Optional_Packages_Switch");
             _packageListView = (RelativePanel)this.FindName("Package_Relative_Panel");
+            _listView = (ListView)this.FindName("List_View");
             _addNewPackageTextBlock = (TextBlock)this.FindName("Add_New_Package_Text_Block");
-            
         }
 
-        /***************************************************************************
+       /***************************************************************************
        * 
        * Lifecycle Methods
        *
@@ -101,13 +104,6 @@ namespace AppInstallerFileGenerator.Views
         {
             _optionalPackages = App.OptionalPackages;
 
-            Debug.WriteLine("Package 1");
-            Debug.WriteLine("File Path: " + _optionalPackages[0].FilePath);
-            Debug.WriteLine("Version: " + _optionalPackages[0].Version);
-            Debug.WriteLine("Publisher: " + _optionalPackages[0].Publisher);
-            Debug.WriteLine("Package Type: " + _optionalPackages[0].PackageType.ToString());
-            Debug.WriteLine("Name: " + _optionalPackages[0].Name);
-            
             _reloadViews();
             base.OnNavigatedTo(e);
         }
@@ -135,25 +131,16 @@ namespace AppInstallerFileGenerator.Views
             {
                 _packageListView.Visibility = Visibility.Visible;
             }
-
-            //TODO: Keith - Handle this type of visibility binding later.
-            for (int i = 0; i < _optionalPackages.Count; i++)
-            {
-                //if (_packageTypes[i] == PackageType.Appx)
-                //{
-                //    _processorTypeStackPanel.Visibility = Visibility.Visible;
-                //}
-                //else
-                //{
-                //    _processorTypeStackPanel.Visibility = Visibility.Collapsed;
-                //    _processorArchitectures[0] = ProcessorArchitecture.none; 
-                //}
-            }
         }
 
         private void _save()
         {
-            App.OptionalPackages = _optionalPackages;
+            //Problem is getting null reference exception - trying to access optionalpackages when it is null?
+            for (int i = 0; i < _optionalPackages.Count; i++)
+            {
+                App.OptionalPackages[i] = _optionalPackages[i];
+            }
+            
             App.IsOptionalPackages = _isOptionalPackages;
         }
 
@@ -175,8 +162,36 @@ namespace AppInstallerFileGenerator.Views
 
         private void Add_New_Package_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            _optionalPackages.Add(new OptionalPackage()); //May also need NotifiedPropertyChange or other listener!
+            _optionalPackages.Add(new OptionalPackage()); 
+            _save();
+        }
+        //TODO: KEITH - REMOVING THEM DOESNT WORK YET. NEED TO IMPLEMENT CHECK OR FIND OUT A DIFFERENT METHOD. "UNCHECKING" ISNT WORKING AND MAY HAVE TO DO WITH NOT BINDING CORRECTLY --> THIS IS CAUSING NULL EXCEPTION CRASH
+
+        private void Chck_Checked(object sender, RoutedEventArgs e)
+        {
+            CheckBox chk = (CheckBox)sender;
+            OptionalPackage newVal = (OptionalPackage)chk.Tag;
+            if (chk.IsChecked.HasValue && chk.IsChecked.Value)
+            {
+                selectedItems.Add(newVal);
+            }
+            else
+            {
+                selectedItems.Remove(newVal);
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            foreach (var item in selectedItems)
+            {
+                _optionalPackages.Remove(item); 
+            }
+            selectedItems.Clear();
             _save();
         }
     }
 }
+
+
+//Giving nullreferenceexception..._optionalpackages becomes null after remiving the last element...need to add a (if _optionalPalcages != nulll) somewehre

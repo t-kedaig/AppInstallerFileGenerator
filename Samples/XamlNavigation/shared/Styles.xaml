@@ -339,6 +339,18 @@
         </Setter>
     </Style>
 
+    <Style x:Key="ListViewContainerStyle" TargetType="ListViewItem">
+        <Setter Property="BorderBrush" Value="{ThemeResource SystemControlTransparentBrush}"/>
+        <Setter Property="Background" Value="AliceBlue" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="FocusVisualPrimaryBrush" Value="Transparent"/>
+        <Setter Property="FocusVisualSecondaryBrush" Value="Transparent"/>
+        <Setter Property="IsFocusEngaged" Value="False"/>
+        <Setter Property="IsFocusEngagementEnabled" Value="False" />
+        <Setter Property="AllowFocusOnInteraction" Value="False" />
+        <Setter Property="UseSystemFocusVisuals" Value="False" />
+    </Style>
+
     <Style x:Key="NavMenuItemContainer10ftStyle" TargetType="ListViewItem">
         <Setter Property="MinWidth" Value="96"/>
         <Setter Property="Height" Value="48"/>

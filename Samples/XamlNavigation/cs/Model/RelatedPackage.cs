@@ -34,7 +34,7 @@ namespace AppInstallerFileGenerator.Model
         {
             _filePath = "";
             _version = "";
-            _packageType = PackageType.Appx;
+            _packageType = PackageType.MSIX;
             _publisher = "";
             _name = "";
             _processorArchitecture = ProcessorArchitecture.none;

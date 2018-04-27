@@ -1,5 +1,5 @@
 ﻿public enum PackageType
 {
-    Appx,
-    Appxbundle
+    MSIX,
+    msixbundle
 };

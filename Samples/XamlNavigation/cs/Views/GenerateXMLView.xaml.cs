@@ -52,9 +52,8 @@ namespace AppInstallerFileGenerator.Views
             {
                 var t = Task.Run(() =>
                 {
-                    
                     //Create file
-                    FileStream writer = new FileStream(ApplicationData.Current.LocalFolder.Path + "//GenerationExample.xml", FileMode.Create); //TODO: Create file in proper location
+                    FileStream writer = new FileStream(ApplicationData.Current.LocalFolder.Path + "//Your_AppInstaller_File_Name.xml", FileMode.Create); //TODO: Create file in proper location
 
                     AppInstaller appInstaller = new AppInstaller(App.AppInstallerFilePath, App.AppInstallerVersionNumber);
 
@@ -70,7 +69,7 @@ namespace AppInstallerFileGenerator.Views
                     xdw.WriteAttributeString("Version", App.AppInstallerVersionNumber);
 
                     //Main Package Content
-                    if (App.MainPackageType == PackageType.Appx)
+                    if (App.MainPackageType == PackageType.MSIX)
                     {
                         DataContractSerializer mainPackageDCS = new DataContractSerializer(typeof(MainPackage));
                         MainPackage mainPackage = new MainPackage(App.MainPackageFilePath, App.MainPackageVersion, App.MainPackagePublisher, App.MainPackageName, App.MainPackageType, App.MainPackageProcessorArchitecture, App.MainPackageResourceId); 
@@ -82,13 +81,13 @@ namespace AppInstallerFileGenerator.Views
                         {
                             xdw.WriteAttributeString("ResourceId", mainPackage.ResourceId);
                         }
-                        if (mainPackage.ProcessorArchitecture != ProcessorArchitecture.none)
+                        if (mainPackage.ProcessorArchitecture != ProcessorArchitecture.none && mainPackage.PackageType != PackageType.msixbundle)
                         {
                             xdw.WriteAttributeString("ProcessorArchitecture", mainPackage.ProcessorArchitecture.ToString());
                         }
                         xdw.WriteAttributeString("Name", mainPackage.Name);
                         mainPackageDCS.WriteEndObject(xdw);
-                    } else if (App.MainPackageType == PackageType.Appxbundle)
+                    } else if (App.MainPackageType == PackageType.msixbundle)
                     {
                         DataContractSerializer mainBundleDCS = new DataContractSerializer(typeof(MainBundle));
                         MainBundle mainBundle = new MainBundle(App.MainPackageFilePath, App.MainPackageVersion, App.MainPackagePublisher, App.MainPackageName); 
@@ -109,7 +108,7 @@ namespace AppInstallerFileGenerator.Views
                         for (int i = 0; i < optionalPackages.Count; i++)
                         {
                             //Write package or bundle element
-                            if (optionalPackages[i].PackageType == PackageType.Appx)
+                            if (optionalPackages[i].PackageType == PackageType.MSIX)
                             {
                                 Package package = new Package(
                                     optionalPackages[i].FilePath,
@@ -125,14 +124,14 @@ namespace AppInstallerFileGenerator.Views
                                 xdw.WriteAttributeString("Version", package.Version);
                                 xdw.WriteAttributeString("Uri", package.FilePath);
                                 xdw.WriteAttributeString("Publisher", package.Publisher);
-                                if (package.ProcessorArchitecture != ProcessorArchitecture.none)
+                                if (package.ProcessorArchitecture != ProcessorArchitecture.none && package.PackageType != PackageType.msixbundle)
                                 {
                                     xdw.WriteAttributeString("ProcessorArchitecture", package.ProcessorArchitecture.ToString());
                                 }
                                 xdw.WriteAttributeString("Name", package.Name);
                                 packageDCS.WriteEndObject(xdw);
                             }
-                            else if (optionalPackages[i].PackageType == PackageType.Appxbundle)
+                            else if (optionalPackages[i].PackageType == PackageType.msixbundle)
                             {
                                 Bundle bundle = new Bundle(
                                      optionalPackages[i].FilePath,
@@ -164,7 +163,7 @@ namespace AppInstallerFileGenerator.Views
                         for (int i = 0; i < relatedPackages.Length; i++)
                         {
                             //Write package or bundle element
-                            if (App.RelatedPackageTypes[i] == PackageType.Appx)
+                            if (App.RelatedPackageTypes[i] == PackageType.MSIX)
                             {
                                 Package package = new Package(
                                     App.RelatedPackageFilePaths[i],
@@ -180,14 +179,14 @@ namespace AppInstallerFileGenerator.Views
                                 xdw.WriteAttributeString("Version", package.Version);
                                 xdw.WriteAttributeString("Uri", package.FilePath);
                                 xdw.WriteAttributeString("Publisher", package.Publisher);
-                                if (package.ProcessorArchitecture != ProcessorArchitecture.none)
+                                if (package.ProcessorArchitecture != ProcessorArchitecture.none && package.PackageType != PackageType.msixbundle)
                                 {
                                     xdw.WriteAttributeString("ProcessorArchitecture", package.ProcessorArchitecture.ToString());
                                 }
                                 xdw.WriteAttributeString("Name", package.Name);
                                 packageDCS.WriteEndObject(xdw);
                             }
-                            else if (App.RelatedPackageTypes[i] == PackageType.Appxbundle)
+                            else if (App.RelatedPackageTypes[i] == PackageType.msixbundle)
                             {
                                 Bundle bundle = new Bundle(
                                     App.RelatedPackageFilePaths[i],
@@ -219,7 +218,7 @@ namespace AppInstallerFileGenerator.Views
                         for (int i = 0; i < dependencies.Length; i++)
                         {
                             //Write package or bundle element
-                            if (App.DependencyPackageTypes[i] == PackageType.Appx)
+                            if (App.DependencyPackageTypes[i] == PackageType.MSIX)
                             {
                                 Package package = new Package(
                                     App.DependencyFilePaths[i],
@@ -235,14 +234,14 @@ namespace AppInstallerFileGenerator.Views
                                 xdw.WriteAttributeString("Version", package.Version);
                                 xdw.WriteAttributeString("Uri", package.FilePath);
                                 xdw.WriteAttributeString("Publisher", package.Publisher);
-                                if (package.ProcessorArchitecture != ProcessorArchitecture.none)
+                                if (package.ProcessorArchitecture != ProcessorArchitecture.none && package.PackageType != PackageType.msixbundle)
                                 {
                                     xdw.WriteAttributeString("ProcessorArchitecture", package.ProcessorArchitecture.ToString());
                                 }
                                 xdw.WriteAttributeString("Name", package.Name);
                                 packageDCS.WriteEndObject(xdw);
                             }
-                            else if (App.DependencyPackageTypes[i] == PackageType.Appxbundle)
+                            else if (App.DependencyPackageTypes[i] == PackageType.msixbundle)
                             {
                                 Bundle bundle = new Bundle(
                                     App.DependencyFilePaths[i],

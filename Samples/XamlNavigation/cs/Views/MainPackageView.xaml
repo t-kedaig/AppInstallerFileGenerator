@@ -49,7 +49,7 @@
 
                 <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                     <TextBlock
-                    ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyApp.appx"
+                    ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyApp.msix"
                     Style="{StaticResource SubtitleTextBlockStyle}" Padding="1,0,0,0" FontSize="15" Margin="0,0,0,6"
                      >
                             <Run  Text="File Path"  />
@@ -60,7 +60,7 @@
                     x:Name="File_Path_Text_Box"
                     TextChanged="File_Path_Text_Box_TextChanged"
                     PlaceholderText="Enter the package location"
-                    ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyApp.appx"
+                    ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyApp.msix"
                     HorizontalAlignment="Left"
                     Width="400"
                 />

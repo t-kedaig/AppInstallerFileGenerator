@@ -41,7 +41,7 @@ namespace AppInstallerFileGenerator
         internal static string AppInstallerFilePath = "";
         internal static string AppInstallerVersionNumber = "";
 
-        internal static PackageType MainPackageType = PackageType.Appx;
+        internal static PackageType MainPackageType = PackageType.MSIX;
         internal static String MainPackageFilePath = "";
         internal static String MainPackageVersion = "";
         internal static String MainPackagePublisher = "";
@@ -50,16 +50,13 @@ namespace AppInstallerFileGenerator
         internal static ProcessorArchitecture MainPackageProcessorArchitecture = ProcessorArchitecture.none;
 
         internal static bool IsOptionalPackages = false;
-        internal static OptionalPackage defaultOptionalPackage = new OptionalPackage();
-        internal static OptionalPackage testOptionalPackage = new OptionalPackage("tetwetw", "wtt", "wet", "tew", PackageType.Appx, ProcessorArchitecture.none);
-
         internal static ObservableCollection<OptionalPackage> OptionalPackages = new ObservableCollection<OptionalPackage>();
         
 
         //TODO: Keith - remove sample packages.
         
         internal static bool IsRelatedPackages = false;
-        internal static PackageType[] RelatedPackageTypes = new PackageType[] {PackageType.Appx};
+        internal static PackageType[] RelatedPackageTypes = new PackageType[] {PackageType.MSIX};
         internal static String[] RelatedPackageFilePaths = new String[] {"testt"};
         internal static String[] RelatedPackageVersions = new String[] { "testt" };
         internal static String[] RelatedPackagePublishers = new String[] { "testt" };
@@ -67,7 +64,7 @@ namespace AppInstallerFileGenerator
         internal static ProcessorArchitecture[] RelatedPackageProcessorArchitectures = new ProcessorArchitecture[] { ProcessorArchitecture.none};
 
         internal static bool IsDependencies = false;
-        internal static PackageType[] DependencyPackageTypes = new PackageType[] {PackageType.Appx};
+        internal static PackageType[] DependencyPackageTypes = new PackageType[] {PackageType.MSIX};
         internal static String[] DependencyFilePaths = new String[] { "testt" };
         internal static String[] DependencyVersions = new String[] { "testt" };
         internal static String[] DependencyPublishers = new String[] { "testt" };
@@ -80,11 +77,7 @@ namespace AppInstallerFileGenerator
 
         public App()
         {
-            this.InitializeComponent();
-
-            //TODO: Don't Initialize this here. Just do from add button.
-            OptionalPackages.Add(defaultOptionalPackage);
-          
+            this.InitializeComponent();          
             this.Suspending += OnSuspending;
         }
 

@@ -86,10 +86,10 @@ namespace AppInstallerFileGenerator.Views
             _filePathTextBox.Text = _filePath;
 
             //Set Package Type Selection
-            if (_packageType == PackageType.Appx)
+            if (_packageType == PackageType.MSIX)
             {
                 _packageTypeComboBox.SelectedIndex = 0;
-            } else if (_packageType == PackageType.Appxbundle)
+            } else if (_packageType == PackageType.msixbundle)
             {
                 _packageTypeComboBox.SelectedIndex = 1;
             }
@@ -133,7 +133,7 @@ namespace AppInstallerFileGenerator.Views
         ***************************************************************************/
         private void _reloadViews()
         {
-            if (_packageType == PackageType.Appx)
+            if (_packageType == PackageType.MSIX)
             {
                 _processorTypeStackPanel.Visibility = Visibility.Visible;
                 _resourceIdStackPanel.Visibility = Visibility.Visible;
@@ -170,11 +170,11 @@ namespace AppInstallerFileGenerator.Views
 
             if (value == 0)
             { 
-                _packageType = PackageType.Appx;
+                _packageType = PackageType.MSIX;
             }
             else if (value == 1)
             {
-                _packageType = PackageType.Appxbundle;
+                _packageType = PackageType.msixbundle;
             }
             _reloadViews();
             _save();

@@ -115,11 +115,11 @@ namespace AppInstallerFileGenerator.Views
 
             if (_packageTypes.Length != 0)
             {
-                if (_packageTypes[0] == PackageType.Appx)
+                if (_packageTypes[0] == PackageType.MSIX)
                 {
                     _packageTypeComboBox.SelectedIndex = 0;
                 }
-                else if (_packageTypes[0] == PackageType.Appxbundle)
+                else if (_packageTypes[0] == PackageType.msixbundle)
                 {
                     _packageTypeComboBox.SelectedIndex = 1;
                 }
@@ -176,7 +176,7 @@ namespace AppInstallerFileGenerator.Views
 
             for (int i = 0; i < _packageTypes.Length; i++)
             {
-                if (_packageTypes[i] == PackageType.Appx)
+                if (_packageTypes[i] == PackageType.MSIX)
                 {
                     _processorTypeStackPanel.Visibility = Visibility.Visible; 
                 }
@@ -214,11 +214,11 @@ namespace AppInstallerFileGenerator.Views
 
             if (value == 0)
             {
-                _packageTypes[0] = PackageType.Appx;
+                _packageTypes[0] = PackageType.MSIX;
             }
             else if (value == 1)
             {
-                _packageTypes[0] = PackageType.Appxbundle;
+                _packageTypes[0] = PackageType.msixbundle;
             }
             _reloadViews();
             _save();

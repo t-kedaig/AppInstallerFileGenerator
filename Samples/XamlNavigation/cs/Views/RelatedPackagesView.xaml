@@ -64,14 +64,14 @@
                     <StackPanel Margin="{StaticResource SettingsSubheaderMargin}">
                         <TextBlock
                         x:Name="File_Path"
-                        ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyRelatedPackage.appx"
+                        ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyRelatedPackage.msix"
                         Style="{StaticResource SubtitleTextBlockStyle}" FontSize="15" Margin="0,0,0,6" Padding="1,0,0,0">
                             <Run Text="File Path" />
                             <Run Text="*" Foreground="Red" />
                         </TextBlock>
                         <TextBox 
                         x:Uid="File_Path_Text_Box"
-                        ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyRelatedPackage.appx"
+                        ToolTipService.ToolTip="e.g. C:\Users\JaneDoe\Desktop\MyRelatedPackage.msix"
                         x:Name="File_Path_Text_Box"
                         PlaceholderText="Enter the package location"
                         TextChanged="File_Path_Text_Box_TextChanged"

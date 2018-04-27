@@ -7,7 +7,7 @@ using System.Collections;
 using System.Runtime.Serialization;
 using System.Xml;
 
-namespace AppInstallerFileGenerator.Model
+namespace AppInstallerFileGenerator.Model 
 {
     [DataContract(Name = "OptionalPackages", Namespace = "")]
     public class OptionalPackage
@@ -34,7 +34,7 @@ namespace AppInstallerFileGenerator.Model
         {
             _filePath = "";
             _version = "";
-            _packageType = PackageType.Appx;
+            _packageType = PackageType.MSIX;
             _publisher = "";
             _name = "";
             _processorArchitecture = ProcessorArchitecture.none;
@@ -111,7 +111,6 @@ namespace AppInstallerFileGenerator.Model
                 _processorArchitecture = value;
             }
         }
-
 
         public IList<PackageType> PackageTypes
         {
