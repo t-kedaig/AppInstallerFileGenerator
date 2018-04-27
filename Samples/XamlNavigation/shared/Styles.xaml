@@ -341,7 +341,6 @@
 
     <Style x:Key="ListViewContainerStyle" TargetType="ListViewItem">
         <Setter Property="BorderBrush" Value="{ThemeResource SystemControlTransparentBrush}"/>
-        <Setter Property="Background" Value="AliceBlue" />
         <Setter Property="BorderThickness" Value="0" />
         <Setter Property="FocusVisualPrimaryBrush" Value="Transparent"/>
         <Setter Property="FocusVisualSecondaryBrush" Value="Transparent"/>

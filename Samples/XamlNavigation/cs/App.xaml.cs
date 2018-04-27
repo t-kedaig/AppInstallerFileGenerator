@@ -51,25 +51,12 @@ namespace AppInstallerFileGenerator
 
         internal static bool IsOptionalPackages = false;
         internal static ObservableCollection<OptionalPackage> OptionalPackages = new ObservableCollection<OptionalPackage>();
-        
 
-        //TODO: Keith - remove sample packages.
-        
         internal static bool IsRelatedPackages = false;
-        internal static PackageType[] RelatedPackageTypes = new PackageType[] {PackageType.MSIX};
-        internal static String[] RelatedPackageFilePaths = new String[] {"testt"};
-        internal static String[] RelatedPackageVersions = new String[] { "testt" };
-        internal static String[] RelatedPackagePublishers = new String[] { "testt" };
-        internal static String[] RelatedPackageNames = new String[] { "testt" };
-        internal static ProcessorArchitecture[] RelatedPackageProcessorArchitectures = new ProcessorArchitecture[] { ProcessorArchitecture.none};
+        internal static ObservableCollection<RelatedPackage> RelatedPackages = new ObservableCollection<RelatedPackage>();
 
         internal static bool IsDependencies = false;
-        internal static PackageType[] DependencyPackageTypes = new PackageType[] {PackageType.MSIX};
-        internal static String[] DependencyFilePaths = new String[] { "testt" };
-        internal static String[] DependencyVersions = new String[] { "testt" };
-        internal static String[] DependencyPublishers = new String[] { "testt" };
-        internal static String[] DependencyNames = new String[] { "testt" };
-        internal static ProcessorArchitecture[] DependencyProcessorArchitectures = new ProcessorArchitecture[] { ProcessorArchitecture.none };
+        internal static ObservableCollection<Dependency> Dependencies = new ObservableCollection<Dependency>();
 
         internal static bool IsCheckUpdates = false;
         internal static int HoursBetweenUpdates = 0;

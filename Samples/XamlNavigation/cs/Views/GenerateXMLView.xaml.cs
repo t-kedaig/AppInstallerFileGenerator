@@ -153,25 +153,25 @@ namespace AppInstallerFileGenerator.Views
                         optionalPackageDCS.WriteEndObject(xdw);
                     }
 
-                    //Related Packages Content
 
-                    RelatedPackage[] relatedPackages = new RelatedPackage[App.RelatedPackageFilePaths.Length];
+                    //Related Packages Content
+                    ObservableCollection<RelatedPackage> relatedPackages = App.RelatedPackages;
                     DataContractSerializer relatedPackageDCS = new DataContractSerializer(typeof(RelatedPackage));
-                    if (relatedPackages.Length > 0 && App.IsRelatedPackages)
+                    if (relatedPackages.Count > 0 && App.IsRelatedPackages)
                     {
                         relatedPackageDCS.WriteStartObject(xdw, relatedPackages[0]);
-                        for (int i = 0; i < relatedPackages.Length; i++)
+                        for (int i = 0; i < relatedPackages.Count; i++)
                         {
                             //Write package or bundle element
-                            if (App.RelatedPackageTypes[i] == PackageType.MSIX)
+                            if (relatedPackages[i].PackageType == PackageType.MSIX)
                             {
                                 Package package = new Package(
-                                    App.RelatedPackageFilePaths[i],
-                                    App.RelatedPackageVersions[i],
-                                    App.RelatedPackagePublishers[i],
-                                    App.RelatedPackageNames[i],
-                                    App.RelatedPackageTypes[i],
-                                    App.RelatedPackageProcessorArchitectures[i]
+                                    relatedPackages[i].FilePath,
+                                    relatedPackages[i].Version,
+                                    relatedPackages[i].Publisher,
+                                    relatedPackages[i].Name,
+                                    relatedPackages[i].PackageType,
+                                    relatedPackages[i].ProcessorArchitecture
                                 );
 
                                 DataContractSerializer packageDCS = new DataContractSerializer(typeof(Package));
@@ -186,14 +186,14 @@ namespace AppInstallerFileGenerator.Views
                                 xdw.WriteAttributeString("Name", package.Name);
                                 packageDCS.WriteEndObject(xdw);
                             }
-                            else if (App.RelatedPackageTypes[i] == PackageType.msixbundle)
+                            else if (relatedPackages[i].PackageType == PackageType.msixbundle)
                             {
                                 Bundle bundle = new Bundle(
-                                    App.RelatedPackageFilePaths[i],
-                                    App.RelatedPackageVersions[i],
-                                    App.RelatedPackagePublishers[i],
-                                    App.RelatedPackageNames[i],
-                                    App.RelatedPackageTypes[i]
+                                     relatedPackages[i].FilePath,
+                                    relatedPackages[i].Version,
+                                    relatedPackages[i].Publisher,
+                                   relatedPackages[i].Name,
+                                    relatedPackages[i].PackageType
                                 );
 
                                 DataContractSerializer bundleDCS = new DataContractSerializer(typeof(Bundle));
@@ -208,25 +208,26 @@ namespace AppInstallerFileGenerator.Views
                         relatedPackageDCS.WriteEndObject(xdw);
                     }
 
+
                     //Dependency Content
 
-                    Dependency[] dependencies = new Dependency[App.DependencyFilePaths.Length];
+                    ObservableCollection<Dependency> dependencies = App.Dependencies;
                     DataContractSerializer dependencyDCS = new DataContractSerializer(typeof(Dependency));
-                    if (dependencies.Length > 0 && App.IsDependencies)
+                    if (dependencies.Count > 0 && App.IsDependencies)
                     {
                         dependencyDCS.WriteStartObject(xdw, dependencies[0]);
-                        for (int i = 0; i < dependencies.Length; i++)
+                        for (int i = 0; i < dependencies.Count; i++)
                         {
                             //Write package or bundle element
-                            if (App.DependencyPackageTypes[i] == PackageType.MSIX)
+                            if (dependencies[i].PackageType == PackageType.MSIX)
                             {
                                 Package package = new Package(
-                                    App.DependencyFilePaths[i],
-                                    App.DependencyVersions[i],
-                                    App.DependencyPublishers[i],
-                                    App.DependencyNames[i],
-                                    App.DependencyPackageTypes[i],
-                                    App.DependencyProcessorArchitectures[i]
+                                    dependencies[i].FilePath,
+                                    dependencies[i].Version,
+                                    dependencies[i].Publisher,
+                                    dependencies[i].Name,
+                                    dependencies[i].PackageType,
+                                    dependencies[i].ProcessorArchitecture
                                 );
 
                                 DataContractSerializer packageDCS = new DataContractSerializer(typeof(Package));
@@ -241,14 +242,14 @@ namespace AppInstallerFileGenerator.Views
                                 xdw.WriteAttributeString("Name", package.Name);
                                 packageDCS.WriteEndObject(xdw);
                             }
-                            else if (App.DependencyPackageTypes[i] == PackageType.msixbundle)
+                            else if (dependencies[i].PackageType == PackageType.msixbundle)
                             {
                                 Bundle bundle = new Bundle(
-                                    App.DependencyFilePaths[i],
-                                    App.DependencyVersions[i],
-                                    App.DependencyPublishers[i],
-                                    App.DependencyNames[i],
-                                    App.DependencyPackageTypes[i]
+                                    dependencies[i].FilePath,
+                                    dependencies[i].Version,
+                                    dependencies[i].Publisher,
+                                    dependencies[i].Name,
+                                    dependencies[i].PackageType
                                 );
 
                                 DataContractSerializer bundleDCS = new DataContractSerializer(typeof(Bundle));
@@ -262,7 +263,7 @@ namespace AppInstallerFileGenerator.Views
                         }
                         dependencyDCS.WriteEndObject(xdw);
                     }
-
+                    
 
                     //Update Settings
                     UpdateSettings updateSettings = new UpdateSettings();
@@ -327,9 +328,9 @@ namespace AppInstallerFileGenerator.Views
 
             if (App.IsRelatedPackages == true)
             {
-                for (int i = 0; i < App.RelatedPackageFilePaths.Length; i++)
+                for (int i = 0; i < App.RelatedPackages.Count; i++)
                 {
-                    if (App.RelatedPackageFilePaths[i] == "" || App.RelatedPackageNames[i] == "" || App.RelatedPackagePublishers[i] == "" || App.RelatedPackageVersions[i] == "")
+                    if (App.RelatedPackages[i].FilePath == "" || App.RelatedPackages[i].Name == "" || App.RelatedPackages[i].Publisher == "" || App.RelatedPackages[i].Version == "")
                     {
                         _displayMissingRelatedPackageInformationDialog();
                         return false;
@@ -339,9 +340,9 @@ namespace AppInstallerFileGenerator.Views
 
             if (App.IsDependencies == true)
             {
-                for (int i = 0; i < App.DependencyFilePaths.Length; i++)
+                for (int i = 0; i < App.Dependencies.Count; i++)
                 {
-                    if (App.DependencyFilePaths[i] == "" || App.DependencyNames[i] == "" || App.DependencyPublishers[i] == "" || App.DependencyVersions[i] == "")
+                    if (App.Dependencies[i].FilePath == "" || App.Dependencies[i].Name == "" || App.Dependencies[i].Publisher == "" || App.Dependencies[i].Version == "")
                     {
                         _displayMissingDependencyInformationDialog();
                         return false;

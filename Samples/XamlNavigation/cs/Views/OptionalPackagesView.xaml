@@ -55,11 +55,11 @@
                             Toggled="ToggleSwitch_Toggled"
                             >
                     </ToggleSwitch>
-                    <Button
+                    <!--<Button
                         Click="Button_Click"
                         Content="Remove Packages"
                         
-                    />
+                    />-->
                 </StackPanel>
                 <ScrollViewer  Grid.Row="1" Grid.Column="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollMode="Enabled">
                     <RelativePanel x:Name="Package_Relative_Panel">
@@ -174,7 +174,7 @@
                                             </ComboBox>
                                         </StackPanel>
                                         
-                                        <CheckBox Name="Chck" Checked="Chck_Checked" Width="50" Tag="{Binding}"></CheckBox>
+                                        <!--<CheckBox Name="Chck" Checked="Chck_Checked" Width="50" Tag="{Binding}"></CheckBox> -->
                                         <Rectangle
                                             Width="800"
                                             Margin="12,0,0,20"

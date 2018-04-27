@@ -136,10 +136,7 @@ namespace AppInstallerFileGenerator.Views
         private void _save()
         {
             //Problem is getting null reference exception - trying to access optionalpackages when it is null?
-            for (int i = 0; i < _optionalPackages.Count; i++)
-            {
-                App.OptionalPackages[i] = _optionalPackages[i];
-            }
+            App.OptionalPackages = _optionalPackages;
             
             App.IsOptionalPackages = _isOptionalPackages;
         }
@@ -165,31 +162,32 @@ namespace AppInstallerFileGenerator.Views
             _optionalPackages.Add(new OptionalPackage()); 
             _save();
         }
+
         //TODO: KEITH - REMOVING THEM DOESNT WORK YET. NEED TO IMPLEMENT CHECK OR FIND OUT A DIFFERENT METHOD. "UNCHECKING" ISNT WORKING AND MAY HAVE TO DO WITH NOT BINDING CORRECTLY --> THIS IS CAUSING NULL EXCEPTION CRASH
 
-        private void Chck_Checked(object sender, RoutedEventArgs e)
-        {
-            CheckBox chk = (CheckBox)sender;
-            OptionalPackage newVal = (OptionalPackage)chk.Tag;
-            if (chk.IsChecked.HasValue && chk.IsChecked.Value)
-            {
-                selectedItems.Add(newVal);
-            }
-            else
-            {
-                selectedItems.Remove(newVal);
-            }
-        }
+        //private void Chck_Checked(object sender, RoutedEventArgs e)
+        //{
+        //    CheckBox chk = (CheckBox)sender;
+        //    OptionalPackage newVal = (OptionalPackage)chk.Tag;
+        //    if (chk.IsChecked.HasValue && chk.IsChecked.Value)
+        //    {
+        //        selectedItems.Add(newVal);
+        //    }
+        //    else
+        //    {
+        //        selectedItems.Remove(newVal);
+        //    }
+        //}
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            foreach (var item in selectedItems)
-            {
-                _optionalPackages.Remove(item); 
-            }
-            selectedItems.Clear();
-            _save();
-        }
+        //private void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    foreach (var item in selectedItems)
+        //    {
+        //        _optionalPackages.Remove(item); 
+        //    }
+        //    selectedItems.Clear();
+        //    _save();
+        //}
     }
 }
 

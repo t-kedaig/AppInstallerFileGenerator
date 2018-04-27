@@ -1,5 +1,7 @@
-﻿using System;
+﻿using AppInstallerFileGenerator.Model;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
@@ -23,23 +25,30 @@ namespace AppInstallerFileGenerator.Views
 	/// </summary>
 	public sealed partial class RelatedPackagesView : Page, INotifyPropertyChanged
 	{
-        private TextBox _filePathTextBox;
-        private ComboBox _packageTypeComboBox;
-        private TextBox _versionTextBox;
-        private TextBox _publisherTextBox;
-        private TextBox _nameTextBox;
         private ToggleSwitch _relatedPackagesSwitch;
-        private ComboBox _processorTypeComboBox;
+        private RelativePanel _packageListView;
+        private ListView _listView;
+        private TextBlock _addNewPackageTextBlock;
 
-        private StackPanel _processorTypeStackPanel;
-        private StackPanel _packageInfoStackPanel;
+        ObservableCollection<RelatedPackage> selectedItems = new ObservableCollection<RelatedPackage>();
 
-        private String[] _filePaths; //Declare empty String array, populate in initialize
-        private PackageType[] _packageTypes;
-        private String[] _versions;
-        private String[] _publishers;
-        private String[] _names;
-        private ProcessorArchitecture[] _processorArchitectures;
+        private ObservableCollection<RelatedPackage> _relatedPackages = new ObservableCollection<RelatedPackage>();
+        public ObservableCollection<RelatedPackage> RelatedPackages
+        {
+            get
+            {
+                return this._relatedPackages;
+            }
+
+            set
+            {
+                if (value != this._relatedPackages)
+                {
+                    this._relatedPackages = value;
+                    NotifyPropertyChanged("RelatedPackages");
+                }
+            }
+        }
 
         private bool _isRelatedPackages;
         public bool IsRelatedPackages
@@ -55,6 +64,7 @@ namespace AppInstallerFileGenerator.Views
                 {
                     this._isRelatedPackages = value;
                     NotifyPropertyChanged("IsRelatedPackages");
+
                 }
             }
         }
@@ -76,76 +86,21 @@ namespace AppInstallerFileGenerator.Views
             this.DataContext = this;
             this.NavigationCacheMode = NavigationCacheMode.Required;
             _relatedPackagesSwitch = (ToggleSwitch)this.FindName("Related_Packages_Switch");
-
-            _filePathTextBox = (TextBox)this.FindName("File_Path_Text_Box");
-            _packageTypeComboBox = (ComboBox)this.FindName("Package_Type_Combo_Box");
-            _versionTextBox = (TextBox)this.FindName("Version_Text_Box");
-            _publisherTextBox = (TextBox)this.FindName("Publisher_Text_Box");
-            _nameTextBox = (TextBox)this.FindName("Name_Text_Box");
-            _packageInfoStackPanel = (StackPanel)this.FindName("Package_Info_Stack_Panel");
-            _processorTypeStackPanel = (StackPanel)this.FindName("Processor_Type_Stack_Panel");
-            _processorTypeComboBox = (ComboBox)this.FindName("Processor_Type_Combo_Box");
-
+            _packageListView = (RelativePanel)this.FindName("Package_Relative_Panel");
+            _listView = (ListView)this.FindName("List_View");
+            _addNewPackageTextBlock = (TextBlock)this.FindName("Add_New_Package_Text_Block");
         }
 
         /***************************************************************************
-       * 
-       * Lifecycle Methods
-       *
-       ***************************************************************************/
+        * 
+        * Lifecycle Methods
+        *
+        ***************************************************************************/
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            _filePaths = App.RelatedPackageFilePaths;
-            _packageTypes = App.RelatedPackageTypes;
-            _names = App.RelatedPackageNames;
-            _publishers = App.RelatedPackagePublishers;
-            _versions = App.RelatedPackageVersions;
-            _processorArchitectures = App.RelatedPackageProcessorArchitectures;
+            _relatedPackages = App.RelatedPackages;
 
-            for (int i = 0; i < _filePaths.Length; i++)
-            {
-                _filePathTextBox.Text = _filePaths[i];
-                _versionTextBox.Text = _versions[i];
-                _nameTextBox.Text = _names[i];
-                _publisherTextBox.Text = _publishers[i];
-            }
-
-            //Set Package Type Selection
-
-            if (_packageTypes.Length != 0)
-            {
-                if (_packageTypes[0] == PackageType.MSIX)
-                {
-                    _packageTypeComboBox.SelectedIndex = 0;
-                }
-                else if (_packageTypes[0] == PackageType.msixbundle)
-                {
-                    _packageTypeComboBox.SelectedIndex = 1;
-                }
-            }
-
-            //Set Processor Architecture Selection
-            if (_processorArchitectures[0] == ProcessorArchitecture.none)
-            {
-                _processorTypeComboBox.SelectedIndex = 0;
-            }
-            else if (_processorArchitectures[0] == ProcessorArchitecture.x64)
-            {
-                _processorTypeComboBox.SelectedIndex = 1;
-            }
-            else if (_processorArchitectures[0] == ProcessorArchitecture.x86)
-            {
-                _processorTypeComboBox.SelectedIndex = 2;
-            }
-            else if (_processorArchitectures[0] == ProcessorArchitecture.arm)
-            {
-                _processorTypeComboBox.SelectedIndex = 3;
-            }
-            else if (_processorArchitectures[0] == ProcessorArchitecture.neutral)
-            {
-                _processorTypeComboBox.SelectedIndex = 4;
-            }
             _reloadViews();
             base.OnNavigatedTo(e);
         }
@@ -162,112 +117,24 @@ namespace AppInstallerFileGenerator.Views
         * Private Methods
         *
         ***************************************************************************/
+
         private void _reloadViews()
         {
             if (!_isRelatedPackages)
             {
-                _packageInfoStackPanel.Visibility = Visibility.Collapsed;
+                _packageListView.Visibility = Visibility.Collapsed;
             }
             else
             {
-                _packageInfoStackPanel.Visibility = Visibility.Visible;
-
-            }
-
-            for (int i = 0; i < _packageTypes.Length; i++)
-            {
-                if (_packageTypes[i] == PackageType.MSIX)
-                {
-                    _processorTypeStackPanel.Visibility = Visibility.Visible; 
-                }
-                else
-                {
-                    _processorTypeStackPanel.Visibility = Visibility.Collapsed;
-                    _processorArchitectures[0] = ProcessorArchitecture.none; 
-                }
+                _packageListView.Visibility = Visibility.Visible;
             }
         }
 
         private void _save()
         {
-            for (int i = 0; i < _packageTypes.Length; i++)
-            {
-                App.RelatedPackageFilePaths[0] = _filePaths[i];
-                App.RelatedPackageTypes[0] = _packageTypes[i];
-                App.RelatedPackagePublishers[0] = _publishers[i];
-                App.RelatedPackageNames[0] = _names[i];
-                App.RelatedPackageVersions[0] = _versions[i];
-                App.RelatedPackageProcessorArchitectures[0] = _processorArchitectures[i];
-                App.IsRelatedPackages = _isRelatedPackages;
-            }
-        }
-
-        private void File_Path_Text_Box_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            _filePaths[0] = _filePathTextBox.Text;
-            _save();
-        }
-
-        private void Package_Type_Combo_Box_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            int value = _packageTypeComboBox.SelectedIndex;
-
-            if (value == 0)
-            {
-                _packageTypes[0] = PackageType.MSIX;
-            }
-            else if (value == 1)
-            {
-                _packageTypes[0] = PackageType.msixbundle;
-            }
-            _reloadViews();
-            _save();
-        }
-
-        private void Processor_Type_Combo_Box_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            int value = _processorTypeComboBox.SelectedIndex;
-
-            if (value == 0)
-            {
-                _processorArchitectures[0] = ProcessorArchitecture.none;
-            }
-            else if (value == 1)
-            {
-                _processorArchitectures[0] = ProcessorArchitecture.x64;
-            }
-            else if (value == 2)
-            {
-                _processorArchitectures[0] = ProcessorArchitecture.x86;
-            }
-            else if (value == 3)
-            {
-                _processorArchitectures[0] = ProcessorArchitecture.arm;
-            }
-            else if (value == 4)
-            {
-                _processorArchitectures[0] = ProcessorArchitecture.neutral;
-            }
-
-            _save();
-        }
-
-        private void Version_Text_Box_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            _versions[0] = _versionTextBox.Text;
-            _save();
-        }
-
-        private void Publisher_Text_Box_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            _publishers[0] = _publisherTextBox.Text;
-            _save();
-        }
-
-        private void Name_Text_Box_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            _names[0] = _nameTextBox.Text;
-            _save();
+            //Problem is getting null reference exception - trying to access optionalpackages when it is null?
+            App.RelatedPackages = _relatedPackages;
+            App.IsRelatedPackages = _isRelatedPackages;
         }
 
         private void Next_Button_Click(object sender, RoutedEventArgs e)
@@ -286,5 +153,38 @@ namespace AppInstallerFileGenerator.Views
             _save();
         }
 
+        private void Add_New_Package_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            _relatedPackages.Add(new RelatedPackage());
+            _save();
+        }
+        //TODO: KEITH - REMOVING THEM DOESNT WORK YET. NEED TO IMPLEMENT CHECK OR FIND OUT A DIFFERENT METHOD. "UNCHECKING" ISNT WORKING AND MAY HAVE TO DO WITH NOT BINDING CORRECTLY --> THIS IS CAUSING NULL EXCEPTION CRASH
+
+        //private void Chck_Checked(object sender, RoutedEventArgs e)
+        //{
+        //    CheckBox chk = (CheckBox)sender;
+        //    RelatedPackage newVal = (RelatedPackage)chk.Tag;
+        //    if (chk.IsChecked.HasValue && chk.IsChecked.Value)
+        //    {
+        //        selectedItems.Add(newVal);
+        //    }
+        //    else
+        //    {
+        //        selectedItems.Remove(newVal);
+        //    }
+        //}
+
+        //private void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    foreach (var item in selectedItems)
+        //    {
+        //        _relatedPackages.Remove(item);
+        //    }
+        //    selectedItems.Clear();
+        //    _save();
+        //}
     }
 }
+
+
+//Giving nullreferenceexception..._optionalpackages becomes null after remiving the last element...need to add a (if _optionalPalcages != nulll) somewehre
