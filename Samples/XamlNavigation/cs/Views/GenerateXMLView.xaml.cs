@@ -53,7 +53,7 @@ namespace AppInstallerFileGenerator.Views
                 var t = Task.Run(() =>
                 {
                     //Create file
-                    FileStream writer = new FileStream(ApplicationData.Current.LocalFolder.Path + "//Your_AppInstaller_File_Name.xml", FileMode.Create); //TODO: Create file in proper location
+                    FileStream writer = new FileStream(ApplicationData.Current.LocalFolder.Path + "//Your_AppInstaller_File_Name.xml", FileMode.Create);
 
                     AppInstaller appInstaller = new AppInstaller(App.AppInstallerFilePath, App.AppInstallerVersionNumber);
 
